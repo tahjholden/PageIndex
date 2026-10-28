@@ -19,6 +19,45 @@ from types import SimpleNamespace as config
 
 CHATGPT_API_KEY = os.getenv("CHATGPT_API_KEY")
 
+# Rate limit (429) backoff: TPM resets over a rolling minute; wait long enough for window to reset
+PAGEINDEX_RATE_LIMIT_BACKOFF = int(os.getenv("PAGEINDEX_RATE_LIMIT_BACKOFF", "65"))
+
+# Max output tokens for completions (avoids truncated TOC JSON; default 4096 often causes "incomplete")
+PAGEINDEX_MAX_OUTPUT_TOKENS = int(os.getenv("PAGEINDEX_MAX_OUTPUT_TOKENS", "16384"))
+
+def _is_rate_limit_error(e):
+    """Detect OpenAI 429 / rate limit from exception."""
+    s = str(e).lower()
+    return "429" in s or "rate_limit" in s or "rate limit" in s
+
+def _rate_limit_sleep_seconds():
+    """Seconds to sleep on 429 so TPM window can reset."""
+    return PAGEINDEX_RATE_LIMIT_BACKOFF
+
+# Ollama support
+OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434/v1")
+USE_OLLAMA = os.getenv("USE_OLLAMA", "false").lower() == "true"
+
+
+
+def get_openai_client(api_key=CHATGPT_API_KEY):
+    """Get OpenAI client, configured for Ollama if USE_OLLAMA is set"""
+    if USE_OLLAMA:
+        return openai.OpenAI(
+            api_key="ollama",  # Ollama doesn't require auth, but some clients need a key
+            base_url=OLLAMA_BASE_URL
+        )
+    return openai.OpenAI(api_key=api_key)
+
+def get_async_openai_client(api_key=CHATGPT_API_KEY):
+    """Get async OpenAI client, configured for Ollama if USE_OLLAMA is set"""
+    if USE_OLLAMA:
+        return openai.AsyncOpenAI(
+            api_key="ollama",
+            base_url=OLLAMA_BASE_URL
+        )
+    return openai.AsyncOpenAI(api_key=api_key)
+
 def count_tokens(text, model=None):
     if not text:
         return 0
@@ -28,7 +67,7 @@ def count_tokens(text, model=None):
 
 def ChatGPT_API_with_finish_reason(model, prompt, api_key=CHATGPT_API_KEY, chat_history=None):
     max_retries = 10
-    client = openai.OpenAI(api_key=api_key)
+    client = get_openai_client(api_key=api_key)
     for i in range(max_retries):
         try:
             if chat_history:
@@ -41,6 +80,7 @@ def ChatGPT_API_with_finish_reason(model, prompt, api_key=CHATGPT_API_KEY, chat_
                 model=model,
                 messages=messages,
                 temperature=0,
+                max_tokens=PAGEINDEX_MAX_OUTPUT_TOKENS,
             )
             if response.choices[0].finish_reason == "length":
                 return response.choices[0].message.content, "max_output_reached"
@@ -51,7 +91,12 @@ def ChatGPT_API_with_finish_reason(model, prompt, api_key=CHATGPT_API_KEY, chat_
             print('************* Retrying *************')
             logging.error(f"Error: {e}")
             if i < max_retries - 1:
-                time.sleep(1)  # Wait for 1秒 before retrying
+                if _is_rate_limit_error(e):
+                    backoff = _rate_limit_sleep_seconds()
+                    logging.warning(f"Rate limit (429); sleeping {backoff}s before retry")
+                    time.sleep(backoff)
+                else:
+                    time.sleep(1)  # Wait for 1s before retrying
             else:
                 logging.error('Max retries reached for prompt: ' + prompt)
                 return "Error"
@@ -60,7 +105,7 @@ def ChatGPT_API_with_finish_reason(model, prompt, api_key=CHATGPT_API_KEY, chat_
 
 def ChatGPT_API(model, prompt, api_key=CHATGPT_API_KEY, chat_history=None):
     max_retries = 10
-    client = openai.OpenAI(api_key=api_key)
+    client = get_openai_client(api_key=api_key)
     for i in range(max_retries):
         try:
             if chat_history:
@@ -73,6 +118,7 @@ def ChatGPT_API(model, prompt, api_key=CHATGPT_API_KEY, chat_history=None):
                 model=model,
                 messages=messages,
                 temperature=0,
+                max_tokens=PAGEINDEX_MAX_OUTPUT_TOKENS,
             )
    
             return response.choices[0].message.content
@@ -80,31 +126,55 @@ def ChatGPT_API(model, prompt, api_key=CHATGPT_API_KEY, chat_history=None):
             print('************* Retrying *************')
             logging.error(f"Error: {e}")
             if i < max_retries - 1:
-                time.sleep(1)  # Wait for 1秒 before retrying
+                if _is_rate_limit_error(e):
+                    backoff = _rate_limit_sleep_seconds()
+                    logging.warning(f"Rate limit (429); sleeping {backoff}s before retry")
+                    time.sleep(backoff)
+                else:
+                    time.sleep(1)  # Wait for 1s before retrying
             else:
                 logging.error('Max retries reached for prompt: ' + prompt)
                 return "Error"
             
+
+# Per-request timeout to avoid hangs when many concurrent verify_toc calls run
+CHATGPT_API_ASYNC_TIMEOUT = int(os.getenv("PAGEINDEX_API_TIMEOUT", "120"))
 
 async def ChatGPT_API_async(model, prompt, api_key=CHATGPT_API_KEY):
     max_retries = 10
     messages = [{"role": "user", "content": prompt}]
     for i in range(max_retries):
         try:
-            async with openai.AsyncOpenAI(api_key=api_key) as client:
-                response = await client.chat.completions.create(
-                    model=model,
-                    messages=messages,
-                    temperature=0,
-                )
-                return response.choices[0].message.content
+            async def _call():
+                async with get_async_openai_client(api_key=api_key) as client:
+                    response = await client.chat.completions.create(
+                        model=model,
+                        messages=messages,
+                        temperature=0,
+                        max_tokens=PAGEINDEX_MAX_OUTPUT_TOKENS,
+                    )
+                    return response.choices[0].message.content
+            return await asyncio.wait_for(_call(), timeout=CHATGPT_API_ASYNC_TIMEOUT)
+        except asyncio.TimeoutError as e:
+            print('************* Timeout, retrying *************')
+            logging.warning(f"Request timeout ({CHATGPT_API_ASYNC_TIMEOUT}s): {e}")
+            if i < max_retries - 1:
+                await asyncio.sleep(2)
+            else:
+                logging.error('Max retries reached (timeout) for prompt: ' + prompt[:80])
+                return "Error"
         except Exception as e:
             print('************* Retrying *************')
             logging.error(f"Error: {e}")
             if i < max_retries - 1:
-                await asyncio.sleep(1)  # Wait for 1s before retrying
+                if _is_rate_limit_error(e):
+                    backoff = _rate_limit_sleep_seconds()
+                    logging.warning(f"Rate limit (429); sleeping {backoff}s before retry")
+                    await asyncio.sleep(backoff)
+                else:
+                    await asyncio.sleep(1)  # Wait for 1s before retrying
             else:
-                logging.error('Max retries reached for prompt: ' + prompt)
+                logging.error('Max retries reached for prompt: ' + prompt[:80])
                 return "Error"  
             
             
@@ -411,7 +481,12 @@ def add_preface_if_needed(data):
 
 
 def get_page_tokens(pdf_path, model="gpt-4o-2024-11-20", pdf_parser="PyPDF2"):
+    import sys
+    print('Loading tokenizer (first run may take a moment)...', flush=True)
+    sys.stdout.flush()
     enc = tiktoken.encoding_for_model(model)
+    print('Reading PDF pages...', flush=True)
+    sys.stdout.flush()
     if pdf_parser == "PyPDF2":
         pdf_reader = PyPDF2.PdfReader(pdf_path)
         page_list = []

@@ -80,13 +80,20 @@ async def check_title_appearance_in_start_concurrent(structure, page_list, model
         if item.get('physical_index') is None:
             item['appear_start'] = 'no'
 
-    # only for items with valid physical_index
+    # only for items with valid physical_index; throttle concurrency like verify_toc
+    max_concurrent = int(os.environ.get("PAGEINDEX_VERIFY_CONCURRENCY", "8"))
+    sem = asyncio.Semaphore(max_concurrent)
+
+    async def limited_check(title, page_text):
+        async with sem:
+            return await check_title_appearance_in_start(title, page_text, model=model, logger=logger)
+
     tasks = []
     valid_items = []
     for item in structure:
         if item.get('physical_index') is not None:
             page_text = page_list[item['physical_index'] - 1][0]
-            tasks.append(check_title_appearance_in_start(item['title'], page_text, model=model, logger=logger))
+            tasks.append(limited_check(item['title'], page_text))
             valid_items.append(item)
 
     results = await asyncio.gather(*tasks, return_exceptions=True)
@@ -921,11 +928,15 @@ async def verify_toc(page_list, list_result, start_index=1, N=None, model=None):
             item_with_index['list_index'] = idx  # Add the original index in list_result
             indexed_sample_list.append(item_with_index)
 
-    # Run checks concurrently
-    tasks = [
-        check_title_appearance(item, page_list, start_index, model)
-        for item in indexed_sample_list
-    ]
+    # Run checks with limited concurrency to avoid rate limits and connection hangs
+    max_concurrent = int(os.environ.get("PAGEINDEX_VERIFY_CONCURRENCY", "8"))
+    sem = asyncio.Semaphore(max_concurrent)
+
+    async def limited_check(item):
+        async with sem:
+            return await check_title_appearance(item, page_list, start_index, model)
+
+    tasks = [limited_check(item) for item in indexed_sample_list]
     results = await asyncio.gather(*tasks)
     
     # Process results
@@ -1056,6 +1067,7 @@ async def tree_parser(page_list, opt, doc=None, logger=None):
 
 
 def page_index_main(doc, opt=None):
+    print('PageIndex: starting main pipeline...', flush=True)
     logger = JsonLogger(doc)
     
     is_valid_pdf = (
@@ -1065,7 +1077,7 @@ def page_index_main(doc, opt=None):
     if not is_valid_pdf:
         raise ValueError("Unsupported input type. Expected a PDF file path or BytesIO object.")
 
-    print('Parsing PDF...')
+    print('Parsing PDF (loading pages and token counts; may take a few minutes for large files)...', flush=True)
     page_list = get_page_tokens(doc)
 
     logger.info({'total_page_number': len(page_list)})

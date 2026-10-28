@@ -1,0 +1,592 @@
+{
+  "doc_name": "851462318-NBA-Basketball-School-Camp-Curriculum-1.pdf",
+  "doc_description": "NBA Basketball School Camp Curriculum - modular structure (Tip-Off, Warm-Up, Game Time, loads/constraints), drill templates with Examples of Loads, Key Concepts, Guiding Questions.",
+  "structure": [
+    {
+      "title": "NBA BASKETBALL SCHOOL CAMP CURRICULUM",
+      "node_id": "0000",
+      "start_index": 1,
+      "end_index": 2,
+      "summary": "# NBA BASKETBALL SCHOOL CAMP CURRICULUM\n\nNBA Basketball School\n\nCAMP CURRICULUM\nCONTENTS\nBasketball School\n",
+      "nodes": [
+        {
+          "title": "CONTENTS",
+          "node_id": "0001",
+          "start_index": 2,
+          "end_index": 5,
+          "summary": "The provided text outlines the contents of a basketball school curriculum, detailing ten modules. Each module includes a 'Tip-Off', 'Warm-Up' activities, 'Game Time' drills, and concludes with 'Buzzer Beater' and 'Final Buzzer' sections. Specific drills within each module cover various player combinations (1-on-1, 2-on-1, 3-on-2, etc.), game scenarios, shooting, passing, dribbling, and defensive strategies. Some modules also feature 'Competition Ladder' or 'Off-Court' activities."
+        },
+        {
+          "title": "TIP-OFF",
+          "node_id": "0002",
+          "start_index": 5,
+          "end_index": 6,
+          "summary": "The text describes 'TIP-OFF', a 5-minute opening huddle for coaches to welcome players and set daily expectations. It outlines five key components: CALL IN (gathering players), CONNECTIONS (physical greetings), COMMUNICATIONS (sharing information), COMMENCEMENT (preparing for camp), and CHEER (an enthusiastic group cheer). Additionally, it mentions MODULE 1: FULL OUTLINE, which includes WARM-UP and Basketball School."
+        },
+        {
+          "title": "WARM-UP",
+          "node_id": "0003",
+          "start_index": 6,
+          "end_index": 10,
+          "summary": "The provided text outlines the 'Warm-up' module of a basketball program, detailing two activities: 'Partner Tag Game' and '4-on-2 Passing Rondo'. The 'Partner Tag Game' focuses on agility, creativity, and changing speed through various tagging scenarios. The '4-on-2 Passing Rondo' emphasizes ball possession, passing accuracy, and defensive pressure within a defined space. Both activities include specific instructions on setup, gameplay, scoring (optional for rondo), key concepts, staff roles, and guiding questions to enhance player development. The text concludes by indicating that 'Game Time' follows the warm-up."
+        },
+        {
+          "title": "GAME TIME",
+          "node_id": "0004",
+          "start_index": 10,
+          "end_index": 10,
+          "summary": "This text outlines Module 1 of the Basketball School's 'Game Time' section, which focuses on player development through activities designed to mimic basketball. Each activity is presented with a standardized format including name, time, space, equipment, description, scoring, loads, staff roles, key concepts, and guiding questions, encouraging coaches to adapt them. Several specific 'Game Time' activities are listed.",
+          "nodes": [
+            {
+              "title": "Game Time Activities: Skill Development Through Simulated Play",
+              "node_id": "0005",
+              "start_index": 10,
+              "end_index": 14,
+              "summary": "The 'GAME TIME' section of the NBA Basketball School Camp Curriculum focuses on developing players' technical and tactical skills through simulated game scenarios. Each activity is meticulously structured with details on name, time, space, equipment, description, scoring, load variations, staff roles, key concepts, and guiding questions, encouraging coaches to adapt and expand. The curriculum outlines specific activities like '1-ON-1 BLIND' and '2-ON-2 CHANGING LOCATIONS', detailing their objectives, gameplay mechanics, scoring systems, and various 'load' modifications to challenge players. '1-ON-1 BLIND' emphasizes creating advantage and varied finishes, while '2-ON-2 CHANGING LOCATIONS' focuses on maintaining advantage, attacking help defense, and defensive stops, with specific rules and 'lava' concepts introduced for younger players."
+            },
+            {
+              "title": "Basketball Drills: 2-on-2, 1-on-1, and 3-on-3 Continuous Play",
+              "node_id": "0006",
+              "start_index": 14,
+              "end_index": 18,
+              "summary": "This section of the Basketball School curriculum under GAME TIME covers three drills: 2-on-2 Changing Locations, 1-on-1 Create Space, and 3-on-3 Half-Court Continuous. The 2-on-2 drill focuses on offensive and defensive positioning. The 1-on-1 drill emphasizes creating space and shooting off the dribble within a limited time and dribble count, with specific rules for defense and scoring. The 3-on-3 drill is a continuous half-court game where teams rotate after scores, focusing on beating initial and help defense and identifying open players, with variations for younger players and specific 'lava' rules to enforce spacing and movement."
+            },
+            {
+              "title": "2-on-1 and 3-on-2 Drills for Offensive Advantage",
+              "node_id": "0007",
+              "start_index": 18,
+              "end_index": 22,
+              "summary": "This section details two basketball drills within the 'GAME TIME' module of a Basketball School curriculum. The '2-ON-1 I MORE' drill focuses on offensive players making quick decisions and scoring within two passes against a single defender, emphasizing ROB shots (Range, Open, Balance). It includes variations for different age groups and scoring for both offense and defense. The '3-ON-2 CONVERT THE ADVANTAGE' drill involves a 3-on-2 offensive scenario aiming for quick scores within 10-second 'bursts', also highlighting ROB shots and decision-making. This drill features 'lava' rules for younger players, advanced load examples, and scoring that determines a winning team. Both drills aim to develop offensive efficiency and defensive disruption, with guiding questions to reinforce key concepts."
+            },
+            {
+              "title": "Game Time Drills and Off-Court Learning",
+              "node_id": "0008",
+              "start_index": 22,
+              "end_index": 25,
+              "summary": "This section outlines various basketball drills and activities within the 'GAME TIME' module, including '3-on-2 Convert the Advantage' and a detailed '5-on-5 Loads-Based' game with specific rules, scoring, key concepts, guiding questions, and variations for younger players. It also introduces 'OFF-COURT' activities designed for further learning through video analysis and other exercises, covering topics like defense, shot selection, and ball handling. Finally, the 'BUZZER BEATER' component is described as a daily reflection activity using a player notebook to assess performance and learning."
+            }
+          ]
+        },
+        {
+          "title": "BUZZER BEATER",
+          "node_id": "0009",
+          "start_index": 25,
+          "end_index": 26,
+          "summary": "## BUZZER BEATER\n\nis where players take a moment to pause and think about their day at camp. In this component, players utilize their NBA Basketball School Player Notebook to answer daily reflection questions.\n\n### WHAT DID YOU DO WELL?\n\n### WHAT IS SOMETHING YOU LEARNED TODAY?\n\n### WHAT IS SOMETHING YOU WOULD LIKE TO IMPROVE AT?\n\nMODULE 1: FULL OUTLINE\n\nFINAL BUZZER\n\nBasketball School\n"
+        },
+        {
+          "title": "FINAL BUZZER",
+          "node_id": "0010",
+          "start_index": 26,
+          "end_index": 27,
+          "summary": "The Final Buzzer is a brief, 5-minute closing huddle where coaches see players off. It includes five key components: verbally calling players in, offering physical connections, delivering important communications, concluding with a debrief on learnings, and ending with an enthusiastic group cheer."
+        }
+      ]
+    },
+    {
+      "title": "MODULE 2: FULL OUTLINE",
+      "node_id": "0011",
+      "start_index": 27,
+      "end_index": 27,
+      "summary": "# MODULE 2: FULL OUTLINE\n\nBasketball School\n",
+      "nodes": [
+        {
+          "title": "Camp Opening and Warm-Up Activities",
+          "node_id": "0012",
+          "start_index": 27,
+          "end_index": 31,
+          "summary": "This section outlines the initial components of a basketball camp module. It details the 'Tip-Off,' a brief opening huddle for setting expectations, comprising five key elements: Call In, Connections, Communications, Commencement, and Cheer. Following this, it presents the 'Competition Ladder,' offering various competitive formats like 1v1, 2v2, 3v3, and shooting contests, which can be structured with different loads. The 'Warm-Up' section is then introduced, focusing on preparing players physically and mentally through activities like 'Small Space Dribble Knockout' and 'Pass Keepaway.' The 'Small Space Dribble Knockout' is described in detail, including its objective, playing space, equipment, description, examples of loads, scoring, key concepts, staff roles, and guiding questions, all aimed at developing ball manipulation and defensive skills."
+        },
+        {
+          "title": "Warm-up Drills and Game Time Introduction",
+          "node_id": "0013",
+          "start_index": 31,
+          "end_index": 35,
+          "summary": "This section outlines two warm-up drills, 'Small Space Dribble Knockout' and 'Pass Keepaway,' both 10 minutes long, focusing on ball handling, stealing, passing under pressure, and spatial awareness. It then introduces the 'Game Time' section, explaining its purpose of developing players through game-like activities and detailing the format for each activity. Finally, it describes the '1-on-1 Rooted' drill, a 16-minute Game Time activity designed to improve finishing and defensive contesting skills, with specific rules, scoring, and variations."
+        },
+        {
+          "title": "Game Time Drills: 1-on-1 and 3-on-3 Continuous Play",
+          "node_id": "0014",
+          "start_index": 35,
+          "end_index": 39,
+          "summary": "This section of the curriculum outlines two basketball drills under the 'GAME TIME' module: 'I-ON-1 ROOTED' and 'I-ON-I ADVANCE THE BALL', and '3-ON-3 HALF-COURT CONTINUOUS'. The 'I-ON-1 ROOTED' drill is briefly introduced with a visual of a potential starting position. The 'I-ON-I ADVANCE THE BALL' drill, lasting 16 minutes, focuses on players advancing the ball against pressure within a 10-second time limit, using available space and one ball per basket. It details scoring for both offense and defense, emphasizes concepts like containing the ball, and provides various 'loads' or modifications such as defenders holding a ball or adding a trailing defender. Staff roles include timekeeping and score communication. The '3-ON-3 HALF-COURT CONTINUOUS' drill, lasting 20 minutes, involves teams of three playing half-court with continuous rotation after scores or defensive stops. It utilizes all available baskets and one ball per basket. Scoring is based on made baskets and defensive stops. Key concepts include beating initial defense and identifying open players. The drill offers 'loads' that restrict offensive players from receiving the ball in certain 'lava' areas (paint or inside the 3PT line) and emphasizes spacing. Staff roles involve scorekeeping and ensuring varied starting angles. Visuals are provided for both drills."
+        },
+        {
+          "title": "Basketball Drills: 3v3, 1v1, 4v4, and 5v5 Variations",
+          "node_id": "0015",
+          "start_index": 39,
+          "end_index": 43,
+          "summary": "This section outlines four basketball drills within the 'Game Time' module: 3-on-3 Half-Court Continuous, 1-on-1 Blind Shooting, 4-on-4 Defensive Shutdown, and 5-on-5 Loads-Based. Each drill includes details on playing space, equipment, a description of how to play, scoring methods, key concepts to focus on, examples of variations or 'loads' to adjust difficulty, and the role of the staff. The 1-on-1 drill emphasizes quick shooting and offensive advantage creation. The 4-on-4 drill focuses on defensive intensity and ball pressure. The 5-on-5 drill centers on spacing and efficient shot hunting, with various 'lava' rules and scoring adjustments for different skill levels."
+        },
+        {
+          "title": "Game Play, Reflection, and Closing Activities",
+          "node_id": "0016",
+          "start_index": 43,
+          "end_index": 46,
+          "summary": "This text outlines a 20-minute '5-on-5 Loads-Based' basketball game activity. It details team formation, scoring (1 point per 3 baskets), key concepts like spacing and shot efficiency, and provides guiding questions for players. Various 'loads' or rule variations are explained, including 'lava' zones, escape rules, and penalties for turnovers or lack of ball pressure. The staff's role in organizing and teaching is also specified. Following the game, the 'Buzzer Beater' component involves player reflection using notebooks on their performance and learning. The 'Final Buzzer' is a brief closing huddle with five parts: Call In, Connections, Communications, Conclusion, and a Cheer."
+        }
+      ]
+    },
+    {
+      "title": "MODULE 3: FULL OUTLINE",
+      "node_id": "0017",
+      "start_index": 46,
+      "end_index": 46,
+      "summary": "# MODULE 3: FULL OUTLINE\n\nBasketball School\n",
+      "nodes": [
+        {
+          "title": "Camp Opening and Warm-Up Activities",
+          "node_id": "0018",
+          "start_index": 46,
+          "end_index": 50,
+          "summary": "This section outlines the initial stages of a basketball camp curriculum, starting with the 'Tip-Off' which is a brief opening huddle (under 5 minutes) designed to welcome players, set expectations, and build team spirit through specific components like 'Call In', 'Connections', 'Communications', 'Commencement', and 'Cheer'. Following the 'Tip-Off', the 'Warm-Up' section details activities to prepare players physically and mentally. Two specific warm-up games are described: 'Tail Tag', a 10-minute agility and ball manipulation game where players try to steal each other's bibs, and 'Team Tag', another 10-minute game focused on agility, teamwork, and ball manipulation, involving 'escapers' and 'taggers' competing against time. Both games include variations ('Examples of Loads'), staff roles, and guiding questions to enhance the experience."
+        },
+        {
+          "title": "Warm-up and Game Time Drills",
+          "node_id": "0019",
+          "start_index": 50,
+          "end_index": 54,
+          "summary": "This section outlines warm-up and game time activities for a basketball camp. The warm-up includes 'Team Tag,' a 10-minute agility and team competition drill focusing on speed and support. The 'Game Time' section introduces various drills designed to develop technical and tactical basketball skills through gameplay. Specific drills detailed include '2-on-2 Around the Cone' (10 minutes) focusing on offensive decision-making and defensive recovery, and '1-on-2 Conversion into 2-on-1 Back' (12 minutes) emphasizing pressure handling and disruptive defense. Each drill is presented with its duration, playing space, equipment, description, scoring, examples of variations ('loads'), staff roles, and guiding questions."
+        },
+        {
+          "title": "Game Time Drills: Conversion, Separation, and Scramble",
+          "node_id": "0020",
+          "start_index": 54,
+          "end_index": 58,
+          "summary": "This section outlines three basketball drills for a school camp curriculum: '1-on-2 Conversion into 2-on-1 Back' (12 min), '1-on-1+1 Create Separation' (16 min), and '3-on-3 Scramble' (10 min). Each drill details playing space, equipment, description, scoring, key concepts, examples of loads (variations), guiding questions, and staff roles. The drills focus on developing offensive and defensive skills such as handling pressure, disruptive defense, creating advantages, scrambling, and recovering. They are designed to be played on half-courts with specific player roles and transition mechanics, with scoring systems and load variations to adapt difficulty and focus."
+        },
+        {
+          "title": "3-on-3 Game Scenarios: Scramble and Three Trips",
+          "node_id": "0021",
+          "start_index": 58,
+          "end_index": 61,
+          "summary": "This section details two basketball drills for a school camp curriculum: '3-on-3 Scramble' and '3-on-3 Three Trips'. The '3-on-3 Scramble' is a 10-minute drill focused on defensive scrambling and recovery, with variations for difficulty and pace. The '3-on-3 Three Trips' is an 18-minute drill emphasizing offensive and defensive transitions and spacing, also with modifications for different age groups and skill levels."
+        },
+        {
+          "title": "Game Time Drills and Off-Court Learning",
+          "node_id": "0022",
+          "start_index": 61,
+          "end_index": 64,
+          "summary": "This section details three basketball drills within the 'Game Time' module: '3-on-3 Three Trips' (visual sequence provided), 'Shooting Ladder' (focusing on jump shots from different ranges with specific scoring and load examples), and '5-on-5 Loads-Based' (a team game with point scoring and various load examples to teach spacing, defense, and offensive efficiency). It also introduces 'Off-Court' activities designed to enhance learning through methods like video analysis, vocabulary exercises, and diagram design, covering key basketball concepts."
+        },
+        {
+          "title": "Off-Court Learning, Reflection, and Closing Activities",
+          "node_id": "0023",
+          "start_index": 64,
+          "end_index": 67,
+          "summary": "This section outlines the 'OFF-COURT' component of the Basketball School curriculum, which expands on 'Game Time' learning through activities like video analysis, vocabulary, and diagram design, covering topics such as Space and Advantage, Disruptive Defense, Shot Selection, Ball Movement, Creative Finishes, and Ball Manipulation. It also details the 'BUZZER BEATER' reflection session where players use their notebooks to answer questions about their performance and learning. Finally, it describes the 'FINAL BUZZER,' a brief closing huddle that includes calling players in, establishing connections, communicating information, concluding the module, and ending with a group cheer."
+        }
+      ]
+    },
+    {
+      "title": "MODULE 4: FULL OUTLINE",
+      "node_id": "0024",
+      "start_index": 67,
+      "end_index": 67,
+      "summary": "# MODULE 4: FULL OUTLINE\n\nBasketball School\n",
+      "nodes": [
+        {
+          "title": "Camp Opening, Competition Formats, and Warm-Up Drills",
+          "node_id": "0025",
+          "start_index": 67,
+          "end_index": 71,
+          "summary": "This text outlines the initial segments of a basketball camp curriculum. It details the 'Tip-Off,' a brief opening huddle for welcoming players and setting expectations, comprising five key components: Call In, Connections, Communications, Commencement, and Cheer. Following this, the 'Competition Ladder' section presents various competitive formats (1v1, 2v2, 3v3, shooting contests) that can be integrated into the camp's 'Game Time' to provide structure and encourage player problem-solving. The 'Warm-Up' section is then introduced, focusing on activities to prepare players physically and mentally. A specific warm-up drill, the '1-on-1 Elbow Race,' is described in detail, including its objective (creative finishing, ball manipulation), setup, execution, scoring, staff roles, and guiding questions, with examples of 'loads' to modify the drill's difficulty."
+        },
+        {
+          "title": "Warm-up Drills and Game Time Introduction",
+          "node_id": "0026",
+          "start_index": 71,
+          "end_index": 75,
+          "summary": "This text chunk details two warm-up drills for a basketball camp: the 'I-ON-1 ELBOW RACE' and the 'I-ON-I SLALOM'. Both drills are 10 minutes long and focus on creative finishing and ball manipulation skills, with variations in equipment, playing space, and specific load examples. The 'I-ON-1 ELBOW RACE' involves a race to score a lay-up after crossover dribbles, while the 'I-ON-I SLALOM' incorporates cones and a defender for a slalom dribbling challenge. The text also introduces the 'GAME TIME' section of the curriculum, explaining its purpose of developing players through game-like activities and outlining the format for these activities. It concludes by listing several 'Variable Shooting' drills that fall under the 'GAME TIME' category."
+        },
+        {
+          "title": "Game Time Activities and Drills",
+          "node_id": "0027",
+          "start_index": 75,
+          "end_index": 79,
+          "summary": "The 'Game Time' section of the NBA Basketball School Camp Curriculum outlines various basketball activities and games designed for player development. Each activity is presented with a detailed format including name, time, space, equipment, description, scoring, load examples, staff roles, key concepts, and guiding questions. Specific activities covered are Variable Shooting, 2-on-2 Line Start to Post-Ups, and 1-on-1 Guided Post-Ups, each with unique objectives, rules, and developmental focuses such as adaptive shooting, post-up play, and defensive strategies."
+        },
+        {
+          "title": "Post-Up and 3-on-2 Shooting Drills",
+          "node_id": "0028",
+          "start_index": 79,
+          "end_index": 82,
+          "summary": "This section details two basketball drills: 'I-ON-I GUIDED POST-UPS' and '3-ON-2 SHOOTING'. The post-up drill involves offensive players working in pairs near the block, with defenders influencing their move towards the basket and contesting shots after one dribble. Modifications for younger players and higher numbers are included, along with staff roles, key concepts like decision-making and defensive techniques, and guiding questions. The 3-on-2 shooting drill focuses on offensive spacing and creating scoring opportunities within a half-court setting, with a limit on dribbles and a focus on attacking closeouts. It also outlines player positioning, defensive strategies, scoring, staff responsibilities, and key concepts related to spacing and defense."
+        },
+        {
+          "title": "Game Time Drills and Off-Court Learning",
+          "node_id": "0029",
+          "start_index": 82,
+          "end_index": 85,
+          "summary": "This section details several basketball drills and off-court activities. The 'Game Time' section includes '3-on-2 Shooting' with specific rules, '4-on-4 Half-Court Continuous with a Random Start' focusing on offensive and defensive strategies within a 14-second shot clock, and '5-on-5 Loads-Based' where teams earn points by scoring three baskets. Both 4-on-4 and 5-on-5 drills outline playing space, equipment, descriptions, scoring, examples of loads, staff roles, key concepts, and guiding questions. The 'Off-Court' section describes activities designed to enhance learning from 'Game Time' sessions, including video analysis and various exercises related to key basketball concepts like spacing, defense, shot selection, and ball handling."
+        },
+        {
+          "title": "Off-Court Learning, Reflection, and Closing",
+          "node_id": "0030",
+          "start_index": 85,
+          "end_index": 88,
+          "summary": "This section outlines the components of the Basketball School curriculum beyond on-court play. The OFF-COURT section focuses on reinforcing Game Time learning through activities like video analysis, vocabulary, and design tasks, covering topics such as space, defense, shot selection, ball movement, finishes, and manipulation. The BUZZER BEATER segment is a daily reflection period where players use their notebooks to answer questions about their performance, learning, and areas for improvement. Finally, the FINAL BUZZER is a brief closing huddle that includes calling players in, offering connections, communicating important information, concluding the module's learnings, and ending with a group cheer."
+        }
+      ]
+    },
+    {
+      "title": "MODULE 5: FULL OUTLINE",
+      "node_id": "0031",
+      "start_index": 88,
+      "end_index": 89,
+      "summary": "# MODULE 5: FULL OUTLINE\n\nBasketball School\n\nMODULE 5: FULL OUTLINE\n\nTIP-OFF\n\nBasketball School\n",
+      "nodes": [
+        {
+          "title": "TIP-OFF",
+          "node_id": "0032",
+          "start_index": 89,
+          "end_index": 90,
+          "summary": "The text describes the 'Tip-Off,' a 5-minute opening huddle for coaches to welcome players and set daily expectations. It outlines five key components: Call In (gathering players), Connections (greetings), Communications (sharing information), Commencement (preparing for camp), and Cheer (a group cheer). Additionally, it briefly mentions 'Module 5: Full Outline' and 'Warm-up' within the context of Basketball School."
+        },
+        {
+          "title": "WARM-UP",
+          "node_id": "0033",
+          "start_index": 90,
+          "end_index": 95,
+          "summary": "The text outlines a basketball warm-up module, defining its purpose as preparing players physically and mentally. It details two specific warm-up activities: 'I-ON-1 CHANGE OF SPEED' and '3-ON-2 PASS TRIANGLE'. For each activity, it specifies the duration, playing space, equipment, a step-by-step description, scoring (if applicable), examples of how to adjust the difficulty ('loads'), the role of the staff, and guiding questions for players. The 'I-ON-1 CHANGE OF SPEED' focuses on individual movement and ball manipulation, while the '3-ON-2 PASS TRIANGLE' emphasizes ball movement, passing, and reading defense. The module concludes by transitioning to 'GAME TIME'."
+        },
+        {
+          "title": "GAME TIME",
+          "node_id": "0034",
+          "start_index": 95,
+          "end_index": 95,
+          "summary": "Module 5, 'Game Time,' outlines a Basketball School curriculum where players engage in activities and games designed to foster their growth and development by mimicking basketball. Each activity is detailed with specific parameters including name, time, space, equipment, description, scoring, loads, staff roles, key concepts, and guiding questions, encouraging coaches to adapt and expand upon them. Several specific game activities are listed, such as 2-ON-I HALF-COURT, I-ON-I CREATE AN ADVANTAGE, and 5-ON-5 LOADS-BASED.",
+          "nodes": [
+            {
+              "title": "Game Time Activities and Drills",
+              "node_id": "0035",
+              "start_index": 95,
+              "end_index": 99,
+              "summary": "The 'Game Time' section of the NBA Basketball School Camp Curriculum focuses on developing players through simulated game scenarios. Each activity is detailed with its name, duration, required space and equipment, a clear description, scoring method, load variations, staff responsibilities, core concepts, and guiding questions for coaches. The curriculum outlines specific drills such as '2-ON-1 HALF-COURT' and '1-ON-1 CREATE AN ADVANTAGE', both of which include variations to adjust difficulty and focus on specific skills like space creation, defensive pressure, and offensive decision-making. Coaches are encouraged to personalize these activities for their players."
+            },
+            {
+              "title": "Basketball Drills: 1-on-1, 3-on-3, and Variable Shooting",
+              "node_id": "0036",
+              "start_index": 99,
+              "end_index": 103,
+              "summary": "This section of the Basketball School curriculum, under the 'Game Time' module, outlines four drills: '1-on-1 Create an Advantage', '3-on-3, Score Through a 1-on-1', '1-on-1+1 Grab and Play', and 'Variable Shooting'. Each drill includes specific instructions on playing space, equipment, a detailed description of the gameplay, scoring methods, key concepts to focus on, examples of variations or 'loads' for practice, the role of the staff, and guiding questions for players. The '3-on-3' drill emphasizes scoring only through a 1-on-1 situation, while '1-on-1+1 Grab and Play' focuses on quick transitions and offensive advantage. 'Variable Shooting' promotes adaptive shooting skills through diverse ranges, passes, and movements."
+            },
+            {
+              "title": "Game Time Drills and Reinforcement Activities",
+              "node_id": "0037",
+              "start_index": 103,
+              "end_index": 107,
+              "summary": "This section details three basketball drills under 'GAME TIME': 'Variable Shooting' for pairs focusing on diverse shooting techniques and passing; '4-on-4 Changing Rims Game' for teams of four emphasizing offensive strategy and quick transitions; and '5-on-5 Loads-Based' for teams of five incorporating specific 'loads' like 'lava' zones to teach spacing, defensive pressure, and efficient shot selection. It also introduces 'OFF-COURT' activities for deeper learning through analysis and design, and 'BUZZER BEATER' for daily player reflection."
+            }
+          ]
+        },
+        {
+          "title": "BUZZER BEATER",
+          "node_id": "0038",
+          "start_index": 107,
+          "end_index": 108,
+          "summary": "## BUZZER BEATER\n\nis where players take a moment to pause and think about their day at camp. In this component, players utilize their NBA Basketball School Player Notebook to answer daily reflection questions.\n\n### WHAT DID YOU DO WELL?\n\n### WHAT IS SOMETHING YOU LEARNED TODAY?\n\n### WHAT IS SOMETHING YOU WOULD LIKE TO IMPROVE AT?\n\nMODULE 5: FULL OUTLINE\n\nFINAL BUZZER\n\nBasketball School\n"
+        },
+        {
+          "title": "FINAL BUZZER",
+          "node_id": "0039",
+          "start_index": 108,
+          "end_index": 111,
+          "summary": "This text describes Module 6 of Basketball School, detailing the 'Final Buzzer' and 'Tip-Off' huddles, each a 5-minute session with specific components like calling players in, establishing connections, communicating information, concluding or commencing activities, and ending with a cheer. The 'Competition Ladder' is also listed as a topic within this module."
+        },
+        {
+          "title": "COMPETITION LADDER",
+          "node_id": "0040",
+          "start_index": 111,
+          "end_index": 112,
+          "summary": "## COMPETITION LADDER\n\nSelect 1 of the following Competition Ladder options to complement the module's Game Time:\n\nVarious loads can be added to the different competitions to provide the players with structure while simultaneously allowing them the freedom to play and explore solutions on their own.\n\n1 VS. 1\n2 VS. 2\n3 VS. 3\n\nFREE THROW SHOOTING CHALLENGE\n\n3-POINT SHOOTING CONTEST\n\nMODULE 6: FULL OUTLINE\nWARM-UP\nBasketball School\n"
+        },
+        {
+          "title": "WARM-UP",
+          "node_id": "0041",
+          "start_index": 112,
+          "end_index": 112,
+          "summary": "MODULE 6: FULL OUTLINE\nWARM-UP\nBasketball School\n\n# WARM-UP\n\nis where players participate in activities designed to increase the heart rate and to get the players' bodies and minds ready for physical movement.\n\nFOLLOW THE LEADER\n\nROCK, PAPER, SCISSORS TAG\n\n112\n",
+          "nodes": [
+            {
+              "title": "Warm-Up and Game Time Activities",
+              "node_id": "0042",
+              "start_index": 112,
+              "end_index": 116,
+              "summary": "The provided text details the WARM-UP section of the Basketball School Camp Curriculum, which includes activities like 'Follow the Leader' and 'Rock, Paper, Scissors Tag' designed to increase heart rate and prepare players for physical activity. These warm-up games focus on changing movement, direction, and speed, with options to incorporate dribbling. The text then transitions to the 'GAME TIME' section, which comprises activities and games that simulate actual basketball play to foster technical and tactical development. Each 'GAME TIME' activity is comprehensively outlined with specific details, and a list of example 'GAME TIME' activities is provided."
+            },
+            {
+              "title": "Game Time: Skill Development Through Simulated Play",
+              "node_id": "0043",
+              "start_index": 116,
+              "end_index": 120,
+              "summary": "Module 6, 'Game Time,' presents basketball drills and games designed for player development, mimicking real game scenarios. Each activity is detailed with its name, duration, space requirements, equipment, description, scoring system, load variations, staff responsibilities, key tactical concepts, and guiding questions for coaches. Specific drills covered include '1-ON-2 TOUCHDOWN,' focusing on offensive penetration against multiple defenders and ball handling in confined spaces, and '1-ON-1+1 CLOSEOUT SERIES,' emphasizing defensive closing out and offensive scoring opportunities with limited dribbles. Both drills offer variations in rules and coaching points to enhance player learning."
+            },
+            {
+              "title": "Game Time Drills: Closeouts, Constrained Defense, and Defensive Shutdowns",
+              "node_id": "0044",
+              "start_index": 120,
+              "end_index": 124,
+              "summary": "This section details three basketball drills within Module 6: Game Time. It begins with the '1-on-1 +1 Closeout Series', providing visual guidance on starting positions. The '1-on-2 Constrained Space' drill involves groups of three with specific defensive restrictions (one defender outside the paint, one inside) and an 8-second shot clock, focusing on ball manipulation, space creation, and finishing. Scoring is 2 points per basket. Loads and staff roles are outlined. The '3-on-3 Defensive Shutdown' drill emphasizes continuous half-court play where defense earns 2 points for stops and retains possession. Key concepts include preventing drives, defensive rotation, and securing rebounds. Loads focus on ball pressure, preventing specific drives and rebounds, and incorporating shot clocks. Staff roles involve ensuring defensive pressure and officiating."
+            },
+            {
+              "title": "Game Time Drills and Off-Court Learning",
+              "node_id": "0045",
+              "start_index": 124,
+              "end_index": 128,
+              "summary": "This section details various 'Game Time' drills and 'Off-Court' activities within the Basketball School curriculum. 'Game Time' includes '3-on-3 Defensive Shutdown' (setup only), 'Shooting Competitions' (a timed drill focusing on catch-and-shoot accuracy from various spots with specific scoring and load examples), and '5-on-5 Loads-Based Half-Court' (a timed drill emphasizing spacing and 1-on-1 defense with complex load rules and scoring). The 'Off-Court' section describes activities designed to deepen learning through analysis, Q&A, and design tasks, covering topics like defense, shooting, and ball handling. Finally, the 'Buzzer Beater' component is a daily reflection activity using a player notebook."
+            }
+          ]
+        },
+        {
+          "title": "BUZZER BEATER",
+          "node_id": "0046",
+          "start_index": 128,
+          "end_index": 129,
+          "summary": "## BUZZER BEATER\n\nis where players take a moment to pause and think about their day at camp. In this component, players utilize their NBA Basketball School Player Notebook to answer daily reflection questions.\n\n### WHAT DID YOU DO WELL?\n\n### WHAT IS SOMETHING YOU LEARNED TODAY?\n\n### WHAT IS SOMETHING YOU WOULD LIKE TO IMPROVE AT?\n\nMODULE 6: FULL OUTLINE\n\nFINAL BUZZER\n\nBasketball School\n"
+        },
+        {
+          "title": "FINAL BUZZER",
+          "node_id": "0047",
+          "start_index": 129,
+          "end_index": 130,
+          "summary": "The Final Buzzer is a brief, 5-minute closing huddle for players and coaches, comprising five distinct parts: Call In (gathering players), Connections (physical interactions), Communications (sharing information), Conclusion (debriefing and preparation), and Cheer (an enthusiastic group cheer)."
+        }
+      ]
+    },
+    {
+      "title": "MODULE 7: FULL OUTLINE",
+      "node_id": "0048",
+      "start_index": 130,
+      "end_index": 130,
+      "summary": "# MODULE 7: FULL OUTLINE\n\nBasketball School\n",
+      "nodes": [
+        {
+          "title": "Camp Opening and Warm-Up Drills",
+          "node_id": "0049",
+          "start_index": 130,
+          "end_index": 134,
+          "summary": "This text outlines the initial segments of a basketball camp curriculum. It details the 'Tip-Off,' a brief opening huddle (under 5 minutes) comprising player call-in, greetings, information sharing, camp preparation, and a group cheer. Following this, the 'Warm-Up' section is described, designed to increase heart rate and prepare participants for physical activity. Two specific warm-up drills are explained: 'Team Dribble Knockout with Loads,' a 10-minute game focused on dribbling skills and spatial awareness with added challenges, and 'Random Movement Shooting,' another 10-minute drill emphasizing adaptive shooting through varied functional movements before taking shots."
+        },
+        {
+          "title": "Warm Up and Game Time Activities",
+          "node_id": "0050",
+          "start_index": 134,
+          "end_index": 138,
+          "summary": "This section of Module 7 outlines the 'Warm Up' and 'Game Time' components of the Basketball School curriculum. The 'Warm Up' includes 'Random Movement Shooting' (10 min), focusing on adaptive shooting through varied functional movements and creative approaches. 'Game Time' is introduced as a section where players engage in activities and games designed to mimic basketball and foster technical and tactical development through play. Each 'Game Time' activity follows a standardized format including name, time, space, equipment, description, scoring, loads, staff roles, key concepts, and guiding questions. Specific 'Game Time' activities detailed are '2-ON-1 BALL ON HIP' (16 min), emphasizing spacing, passing out of drives, and quick exits, and '2-ON-2 FIXED SPOT' (16 min), focusing on creating space, attacking advantages, and defensive recovery, with specific rules and load variations for different age groups."
+        },
+        {
+          "title": "Game Time Drills: 2-on-2, 2-on-1 Conversion, and 3-on-2",
+          "node_id": "0051",
+          "start_index": 138,
+          "end_index": 142,
+          "summary": "This section details three basketball drills for a school camp curriculum: '2-ON-2 FIXED SPOT' (16 min) focusing on fixed offensive spacing and defensive transitions; '2-ON-1 CONVERSION INTO 1-ON-2 BACK' (16 min) emphasizing offensive advantage and quick transitions to defense; and '3-ON-2 DRIVE AND KICK, PAINT TOUCH SCORE' (16 min) requiring penetration to the paint before scoring opportunities. Each drill includes details on playing space, equipment, description, scoring, key concepts, examples of variations ('loads'), staff roles, and guiding questions for players. Specific rules like 'lava' areas and time limits are also provided."
+        },
+        {
+          "title": "Game Time Drills: 3-on-2, 3-on-3, and 1-on-1",
+          "node_id": "0052",
+          "start_index": 142,
+          "end_index": 146,
+          "summary": "This section details three basketball drills for a camp curriculum: '3-on-2 Drive and Kick, Paint Touch Score' focuses on offensive penetration and kick-out opportunities for rim finishes or 3-pointers after a paint touch, with variations for increased difficulty. '3-on-3 Line Start' involves a staggered start under the basket that transitions into a live 3-on-3 game emphasizing spacing and advantage creation, with specific rules for out-of-bounds and transition play. '1-on-1 Blind Shooting' is a drill where the defender starts unaware of the offensive player's position, requiring the offense to score quickly outside the paint within a limited number of dribbles, with scoring variations and defensive challenges."
+        },
+        {
+          "title": "Game Time Drills and Off-Court Learning",
+          "node_id": "0053",
+          "start_index": 146,
+          "end_index": 149,
+          "summary": "This section details two basketball drills: '1-on-1 Blind Shooting' and '5-on-5 Loads-Based', both under the 'Game Time' module. The 1-on-1 drill focuses on offensive players scoring against a defender who starts blind, with specific rules on dribbling, shooting location, and scoring. The 5-on-5 drill involves teams playing to a set number of baskets, with rotation and point tracking. It also includes variations and 'lava' rules for different age groups. The section concludes with a description of 'Off-Court' activities designed to enhance learning through methods like video analysis and concept reinforcement, covering topics such as advantage creation, defense, shot selection, and ball handling."
+        },
+        {
+          "title": "Off-Court Learning, Reflection, and Closing Activities",
+          "node_id": "0054",
+          "start_index": 149,
+          "end_index": 152,
+          "summary": "This section outlines the 'OFF-COURT' components of the Basketball School curriculum. The 'OFF-COURT' section expands on 'Game Time' learning through activities like video analysis, vocabulary exercises, and diagram design, covering topics such as Space and Advantage, Defense, Shot Selection, Ball Movement, Finishing, and Ball Manipulation. The 'BUZZER BEATER' is a daily reflection activity where players use their notebooks to answer questions about their performance and learning. The 'FINAL BUZZER' is a brief closing huddle that includes calling players in, offering connections, communicating important information, debriefing on learnings, and ending with a group cheer."
+        }
+      ]
+    },
+    {
+      "title": "MODULE 8: FULL OUTLINE",
+      "node_id": "0055",
+      "start_index": 152,
+      "end_index": 154,
+      "summary": "Module 8, titled 'Full Outline' for Basketball School, details the 'Tip-Off' procedure. This opening huddle, lasting under 5 minutes, involves players being called in, receiving connections and communications (news, rules, expectations), being primed for the camp's start (Commencement), and ending with an enthusiastic cheer. The module also briefly mentions a 'Competition Ladder'.",
+      "nodes": [
+        {
+          "title": "COMPETITION LADDER",
+          "node_id": "0056",
+          "start_index": 154,
+          "end_index": 155,
+          "summary": "## COMPETITION LADDER\n\nSelect 1 of the following Competition Ladder options to complement the module's Game Time:\n\nVarious loads can be added to the different competitions to provide the players with structure while simultaneously allowing them the freedom to play and explore solutions on their own.\n\n1 VS. 1\n2 VS. 2\n3 VS. 3\n\nFREE THROW SHOOTING CHALLENGE\n\n3-POINT SHOOTING CONTEST\n\nMODULE 8: FULL OUTLINE\nWARM-UP\nBasketball School\n"
+        },
+        {
+          "title": "WARM-UP",
+          "node_id": "0057",
+          "start_index": 155,
+          "end_index": 155,
+          "summary": "MODULE 8: FULL OUTLINE\nWARM-UP\nBasketball School\n\n# WARM-UP\n\nis where players participate in activities designed to increase the heart rate and to get the players' bodies and minds ready for physical movement.\n\nPASS TOUCHDOWN\n\nOBSTACLE COURSE TAG\n\n155\n",
+          "nodes": [
+            {
+              "title": "Warm-Up and Game Time Activities",
+              "node_id": "0058",
+              "start_index": 155,
+              "end_index": 159,
+              "summary": "This section outlines the WARM-UP phase of the basketball camp curriculum, which includes activities to prepare players physically and mentally. Two specific warm-up games are detailed: PASS TOUCHDOWN, a non-dribbling passing game focused on scoring in an endzone, and OBSTACLE COURSE TAG, a tag game that can incorporate obstacles and dribbling. The section then transitions to GAME TIME, explaining that these activities are designed to mimic basketball and foster player development. Each GAME TIME activity follows a structured format and a list of these activities is provided, including various shooting and game-play scenarios."
+            },
+            {
+              "title": "Game Time Drills and Activities",
+              "node_id": "0059",
+              "start_index": 159,
+              "end_index": 163,
+              "summary": "The 'Game Time' module focuses on developing players through simulated game scenarios and activities designed to mimic basketball. Each activity is presented with a consistent format including description, scoring, and coaching guidance. Specific drills detailed are '1-ON-1 BIG ADVANTAGE SHOOTING,' which emphasizes quick shooting and defensive closeouts, and '3-ON-2 INTO 2-ON-2 HALF-COURT,' a transition drill that combines offensive advantage play with continuous action. Both drills include specific rules, scoring, key concepts, load variations, staff roles, and guiding questions to enhance player learning."
+            },
+            {
+              "title": "Game Time Drills: Transition, Ball Advancement, and Drive & Kick",
+              "node_id": "0060",
+              "start_index": 163,
+              "end_index": 166,
+              "summary": "This section details three basketball drills: '3-on-2 into 2-on-2 Half-Court' which focuses on transition play; '2-on-2 Advance the Ball' emphasizing offensive ball progression with restricted passing and disruptive defense; and '1-on-1+1 Drive and Kick' which combines driving, passing, and re-spacing to create scoring opportunities. Each drill includes descriptions of playing space, equipment, rules, scoring, key concepts, variations (loads), staff roles, and guiding questions for players."
+            },
+            {
+              "title": "Drive and Kick and Continuous 3-on-3 Drills",
+              "node_id": "0061",
+              "start_index": 166,
+              "end_index": 169,
+              "summary": "This section details two basketball drills: 'I-ON-I+I DRIVE AND KICK' and '3-ON-3 HALF-COURT CONTINUOUS'. The 'Drive and Kick' drill focuses on offensive players driving, passing to a teammate, and then re-spacing to get open for a 1-on-1 opportunity, emphasizing space creation and creative finishing. The '3-on-3 Half-Court Continuous' drill involves rapid transitions between offensive and defensive teams in a half-court setting, focusing on beating defense and identifying open players. Both drills include variations for younger players, scoring rules, staff roles, key concepts, and guiding questions."
+            },
+            {
+              "title": "Game Time: 5-on-5 Loads-Based and Closing Activities",
+              "node_id": "0062",
+              "start_index": 169,
+              "end_index": 172,
+              "summary": "This section details 'Game Time' activities within Module 8 of the NBA Basketball School curriculum. It outlines two game formats: '3-on-3 Half-Court Continuous' (briefly mentioned) and a more detailed '5-on-5 Loads-Based' game. The 5-on-5 game is a 24-minute activity using available baskets, with teams of 5 playing to 3 baskets for 1 point, and continuous rotation of teams. Specific 'loads' or gameplay restrictions are provided, varying by age group, focusing on shot efficiency, ball pressure, and floor spacing, with examples like designated 'lava' zones and scoring limitations. Staff roles involve organization, substitution, and teaching. The module also includes a 'Buzzer Beater' reflective activity using player notebooks and a 'Final Buzzer' closing huddle with specific components: Call In, Connections, Communications, Conclusion, and Cheer."
+            }
+          ]
+        },
+        {
+          "title": "FINAL BUZZER",
+          "node_id": "0063",
+          "start_index": 172,
+          "end_index": 174,
+          "summary": "The text describes the 'Final Buzzer,' a 5-minute closing huddle for basketball school, comprising five key parts: Call In, Connections, Communications, Conclusion, and Cheer. It also briefly mentions Module 9: Full Outline for Basketball School, including 'Tip-Off' as a component."
+        },
+        {
+          "title": "TIP-OFF",
+          "node_id": "0064",
+          "start_index": 174,
+          "end_index": 175,
+          "summary": "The text describes 'TIP-OFF', a 5-minute opening huddle for coaches to set daily expectations for players. It outlines five key components: CALL IN (gathering players), CONNECTIONS (physical greetings), COMMUNICATIONS (sharing information), COMMENCEMENT (preparing for camp), and CHEER (an enthusiastic group cheer). Additionally, it mentions that MODULE 9 of Basketball School covers the WARM-UP section."
+        },
+        {
+          "title": "WARM-UP",
+          "node_id": "0065",
+          "start_index": 175,
+          "end_index": 180,
+          "summary": "This text details warm-up activities for basketball, specifically 'Steal the Cone' and 'Steal the Tail Gate Tag'. 'Steal the Cone' is a game for groups of three focused on deceptive movements, where perimeter players try to tag a cone defended by one player within a limited area and time. 'Steal the Tail Gate Tag' is a game for larger groups emphasizing agility and teamwork, where offensive players with bibs navigate through cone gates while evading defenders. Both activities include descriptions of playing space, equipment, rules, variations, staff roles, scoring (for 'Steal the Tail Gate Tag'), key concepts, and guiding questions. The text also references accompanying images and concludes by transitioning to 'GAME TIME'."
+        },
+        {
+          "title": "GAME TIME",
+          "node_id": "0066",
+          "start_index": 180,
+          "end_index": 180,
+          "summary": "Module 9, 'Game Time' within a Basketball School curriculum, outlines activities designed to foster player development through basketball-mimicking games. Each activity is detailed with specific parameters including name, time, space, equipment, description, scoring, load types, staff roles, key concepts, and guiding questions, encouraging coaches to adapt and expand upon them. Several specific 2-on-2, 3-on-3, 4-on-4, and 5-on-5 game variations are listed.",
+          "nodes": [
+            {
+              "title": "Game Time Activities and Structure",
+              "node_id": "0067",
+              "start_index": 180,
+              "end_index": 184,
+              "summary": "The 'Game Time' section of the NBA Basketball School Camp Curriculum outlines a series of basketball activities and games designed for player development. Each activity is detailed with its name, duration, required space and equipment, a step-by-step description, scoring system, variations ('loads'), staff responsibilities, core tactical concepts, and guiding questions for players. The curriculum includes specific drills like '2-ON-2+ GRAB AND PLAY' and '3-ON-3 AROUND THE CONE', detailing how to initiate play, scoring rules, and strategic elements. Coaches are encouraged to adapt these drills to best suit their players' needs."
+            },
+            {
+              "title": "Game Time Drills: 3-on-3, 2-on-1, and 4-on-4 Variations",
+              "node_id": "0068",
+              "start_index": 184,
+              "end_index": 188,
+              "summary": "This section details four basketball drills under the 'GAME TIME' module: '3-on-3 Around the Cone,' '2-on-1 I More,' '3-on-3 Random Possession Change,' and '4-on-4 Changing Rims.' Each drill includes descriptions of gameplay, playing space, equipment, specific rules, examples of variations ('loads'), staff roles, scoring methods, guiding questions for players, and key concepts. The drills focus on offensive and defensive strategies, player movement, decision-making, and teamwork in various game-like scenarios."
+            },
+            {
+              "title": "Game Drills, Off-Court Learning, and Reflection",
+              "node_id": "0069",
+              "start_index": 188,
+              "end_index": 192,
+              "summary": "This section details three basketball game drills: '4-on-4 Changing Rims' focusing on scoring and possession changes with a basket-switching variation; '2-on-2+1 Closeouts' emphasizing attacking closeouts with limited dribbles and defensive techniques, including variations; and '5-on-5 Loads-Based' which uses modified rules and scoring to teach specific offensive and defensive strategies. It also outlines 'Off-Court' activities for further learning and 'Buzzer Beater' for daily player reflection."
+            }
+          ]
+        },
+        {
+          "title": "BUZZER BEATER",
+          "node_id": "0070",
+          "start_index": 192,
+          "end_index": 193,
+          "summary": "## BUZZER BEATER\n\nis where players take a moment to pause and think about their day at camp. In this component, players utilize their NBA Basketball School Player Notebook to answer daily reflection questions.\n\n### WHAT DID YOU DO WELL?\n\n### WHAT IS SOMETHING YOU LEARNED TODAY?\n\n### WHAT IS SOMETHING YOU WOULD LIKE TO IMPROVE AT?\n\nMODULE 9: FULL OUTLINE\n\nFINAL BUZZER\n\nBasketball School\n"
+        },
+        {
+          "title": "FINAL BUZZER",
+          "node_id": "0071",
+          "start_index": 193,
+          "end_index": 196,
+          "summary": "The provided text details two key huddle sessions for a basketball school: the opening 'Tip-Off' and the closing 'Final Buzzer'. Both huddles are designed to be brief (under 5 minutes) to maintain player attention and follow a five-part structure: Call In (gathering players), Connections (physical greetings), Communications (sharing information and expectations), a concluding element (Commencement for Tip-Off, Conclusion for Final Buzzer), and a shared Cheer. The text also references 'MODULE 10: FULL OUTLINE' and 'COMPETITION LADDER' as related content."
+        },
+        {
+          "title": "COMPETITION LADDER",
+          "node_id": "0072",
+          "start_index": 196,
+          "end_index": 197,
+          "summary": "## COMPETITION LADDER\n\nSelect 1 of the following Competition Ladder options to complement the module's Game Time:\n\nVarious loads can be added to the different competitions to provide the players with structure while simultaneously allowing them the freedom to play and explore solutions on their own.\n\n1 VS. 1\n2 VS. 2\n3 VS. 3\nFREE THROW SHOOTING CHALLENGE\n3-POINT SHOOTING CONTEST\n\nMODULE 10: FULL OUTLINE\nWARM-UP\nBasketball School\n"
+        },
+        {
+          "title": "WARM-UP",
+          "node_id": "0073",
+          "start_index": 197,
+          "end_index": 201,
+          "summary": "This text outlines warm-up procedures for a basketball program, specifically detailing two drills: Functional Movement Exploration and 1-on-1 Block Races. Functional Movement Exploration encourages players to creatively repeat movements in diverse ways, with examples like varied lunges and squats, and staff guidance to avoid identical repetitions. 1-on-1 Block Races involve a competitive lay-up drill with variations such as weak-hand scoring and ball manipulation, aiming to develop creative finishing and ball skills, with a scoring system of first to four points. The text also indicates a subsequent 'GAME TIME' section."
+        },
+        {
+          "title": "GAME TIME",
+          "node_id": "0074",
+          "start_index": 201,
+          "end_index": 201,
+          "summary": "This text outlines Module 10 of the NBA Basketball School Camp Curriculum, focusing on 'Game Time' activities designed for player development. These activities simulate basketball games to enhance technical and tactical skills. Each activity is detailed with specific parameters including name, time, space, equipment, description, scoring, load types, staff roles, key concepts, and guiding questions, with encouragement for coaches to adapt them. Several specific 2-on-2 and 3-on-3 drills are listed as examples.",
+          "nodes": [
+            {
+              "title": "Game Time Activities and Structure",
+              "node_id": "0075",
+              "start_index": 201,
+              "end_index": 205,
+              "summary": "The 'Game Time' section of the NBA Basketball School Camp Curriculum focuses on developing players through simulated game scenarios. Each activity is meticulously structured with details on time, space, equipment, description, scoring, load variations, staff roles, key concepts, and guiding questions, encouraging coaches to adapt and expand. Specific activities detailed include '2-ON-1+1 CLOSEOUTS' (emphasizing ROB shots and advantage maintenance), '3-ON-3 CHANGING LOCATIONS' (focusing on advantage creation, help defense, and ball stopping with 'lava' rules), and '2-ON-3+1 CONTINUOUS' (highlighting space creation, advantage maintenance, and disruptive defense with a supporting '+1' player). Load examples and guiding questions are provided for each to tailor the drills for different skill levels and encourage strategic thinking."
+            },
+            {
+              "title": "Basketball Drills: 2-on-3-1, 4-on-3, and 3-on-3 Variations",
+              "node_id": "0076",
+              "start_index": 205,
+              "end_index": 209,
+              "summary": "This section details three basketball drills under the 'GAME TIME' module: '2-ON-3-1 CONTINUOUS', '4-ON-3 CONVERT THE ADVANTAGE', and '3-ON-3 THREE TRIPS'. Each drill outlines the number of players, duration, playing space, equipment, description of play, scoring, key concepts, examples of loads (including variations for younger players), staff roles, and guiding questions. The drills focus on offensive and defensive strategies, spacing, transition play, and decision-making in various game-like scenarios."
+            },
+            {
+              "title": "Game Time Activities and Reflection",
+              "node_id": "0077",
+              "start_index": 209,
+              "end_index": 212,
+              "summary": "This section outlines three basketball camp activities: '3-on-3 Three Trips' (20 minutes) focusing on live play, transition, and spacing with specific rules like 'lava' zones and scoring bonuses; '4-on-4 Loads-Based' (24 minutes) emphasizing efficient shots, ball pressure, and floor spacing with a point-based rotation system and unique rule variations; and 'Buzzer Beater,' a reflective period where players use their notebooks to answer questions about their performance and learning. Both 3-on-3 and 4-on-4 activities include adaptable rules ('loads') for different age groups and skill levels, with staff roles and guiding questions provided for each."
+            }
+          ]
+        },
+        {
+          "title": "BUZZER BEATER",
+          "node_id": "0078",
+          "start_index": 212,
+          "end_index": 213,
+          "summary": "## BUZZER BEATER\n\nis where players take a moment to pause and think about their day at camp. In this component, players utilize their NBA Basketball School Player Notebook to answer daily reflection questions.\n\n### WHAT DID YOU DO WELL?\n\n### WHAT IS SOMETHING YOU LEARNED TODAY?\n\n### WHAT IS SOMETHING YOU WOULD LIKE TO IMPROVE AT?\n\nMODULE 10: FULL OUTLINE\n\nFINAL BUZZER\n\nBasketball School\n"
+        },
+        {
+          "title": "FINAL BUZZER",
+          "node_id": "0079",
+          "start_index": 213,
+          "end_index": 214,
+          "summary": "The text describes the 'Final Buzzer,' a 5-minute closing huddle for a basketball program. It outlines five key components: Call In (gathering players), Connections (physical greetings), Communications (sharing information), Conclusion (debriefing and preparation), and Cheer (a group cheer). An image related to 'Basketball School' is also provided."
+        }
+      ]
+    }
+  ]
+}

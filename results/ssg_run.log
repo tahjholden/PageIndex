@@ -1,0 +1,4576 @@
+Running PageIndex on SSG_Book.pdf (may take 15–45+ min for large docs)...
+DEBUG: Starting run_pageindex.py...
+Calling page_index_main (PDF pipeline)...
+PageIndex: starting main pipeline...
+Parsing PDF (loading pages and token counts; may take a few minutes for large files)...
+Loading tokenizer (first run may take a moment)...
+Reading PDF pages...
+start find_toc_pages
+toc found
+start detect_page_index
+index found
+process_toc_with_page_numbers
+start_index: 1
+start toc_transformer
+************* Retrying *************
+ERROR:root:Error: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-p8Ych5l5akCZVzcVMPwhv7Ci on tokens per min (TPM): Limit 30000, Used 21472, Requested 8599. Please try again in 142ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+WARNING:root:Rate limit (429); sleeping 65s before retry
+************* Retrying *************
+ERROR:root:Error: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-p8Ych5l5akCZVzcVMPwhv7Ci on tokens per min (TPM): Limit 30000, Used 21035, Requested 22356. Please try again in 26.782s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+WARNING:root:Rate limit (429); sleeping 65s before retry
+************* Retrying *************
+ERROR:root:Error: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-p8Ych5l5akCZVzcVMPwhv7Ci on tokens per min (TPM): Limit 30000, Used 26436, Requested 23498. Please try again in 39.868s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+WARNING:root:Rate limit (429); sleeping 65s before retry
+************* Retrying *************
+ERROR:root:Error: Error code: 429 - {'error': {'message': 'Request too large for gpt-4o in organization org-p8Ych5l5akCZVzcVMPwhv7Ci on tokens per min (TPM): Limit 30000, Requested 30400. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+WARNING:root:Rate limit (429); sleeping 65s before retry
+************* Retrying *************
+ERROR:root:Error: Error code: 429 - {'error': {'message': 'Request too large for gpt-4o in organization org-p8Ych5l5akCZVzcVMPwhv7Ci on tokens per min (TPM): Limit 30000, Requested 30400. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+WARNING:root:Rate limit (429); sleeping 65s before retry
+************* Retrying *************
+ERROR:root:Error: Error code: 429 - {'error': {'message': 'Request too large for gpt-4o in organization org-p8Ych5l5akCZVzcVMPwhv7Ci on tokens per min (TPM): Limit 30000, Requested 30400. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+WARNING:root:Rate limit (429); sleeping 65s before retry
+************* Retrying *************
+ERROR:root:Error: Error code: 429 - {'error': {'message': 'Request too large for gpt-4o in organization org-p8Ych5l5akCZVzcVMPwhv7Ci on tokens per min (TPM): Limit 30000, Requested 30400. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+WARNING:root:Rate limit (429); sleeping 65s before retry
+************* Retrying *************
+ERROR:root:Error: Error code: 429 - {'error': {'message': 'Request too large for gpt-4o in organization org-p8Ych5l5akCZVzcVMPwhv7Ci on tokens per min (TPM): Limit 30000, Requested 30400. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+WARNING:root:Rate limit (429); sleeping 65s before retry
+************* Retrying *************
+ERROR:root:Error: Error code: 429 - {'error': {'message': 'Request too large for gpt-4o in organization org-p8Ych5l5akCZVzcVMPwhv7Ci on tokens per min (TPM): Limit 30000, Requested 30400. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+WARNING:root:Rate limit (429); sleeping 65s before retry
+************* Retrying *************
+ERROR:root:Error: Error code: 429 - {'error': {'message': 'Request too large for gpt-4o in organization org-p8Ych5l5akCZVzcVMPwhv7Ci on tokens per min (TPM): Limit 30000, Requested 30400. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+WARNING:root:Rate limit (429); sleeping 65s before retry
+************* Retrying *************
+ERROR:root:Error: Error code: 429 - {'error': {'message': 'Request too large for gpt-4o in organization org-p8Ych5l5akCZVzcVMPwhv7Ci on tokens per min (TPM): Limit 30000, Requested 30400. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+WARNING:root:Rate limit (429); sleeping 65s before retry
+************* Retrying *************
+ERROR:root:Error: Error code: 429 - {'error': {'message': 'Request too large for gpt-4o in organization org-p8Ych5l5akCZVzcVMPwhv7Ci on tokens per min (TPM): Limit 30000, Requested 30400. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+WARNING:root:Rate limit (429); sleeping 65s before retry
+************* Retrying *************
+ERROR:root:Error: Error code: 429 - {'error': {'message': 'Request too large for gpt-4o in organization org-p8Ych5l5akCZVzcVMPwhv7Ci on tokens per min (TPM): Limit 30000, Requested 30400. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+ERROR:root:Max retries reached for prompt: 
+    You are given a raw table of contents and a  table of contents.
+    Your job is to check if the  table of contents is complete.
+
+    Reply format:
+    {
+        "thinking": <why do you think the cleaned table of contents is complete or not>
+        "completed": "yes" or "no"
+    }
+    Directly return the final JSON structure. Do not output anything else.
+ Raw Table of contents:
+
+www.transformingbball.com CONTENTS  FINISHING  1-on-1 Around the Arc  1  1-on-1 Blind Start   1  1-on-1 Block    1  1-on-1 Bump Tap   1    1-on-1 Cat and Mouse  2  1-on-1 Chasedown   2  1-on-1 Continuous Posters   3  1-on-1 Corner Finishes  3  1-on-1 Double Contest  4  1-on-1 Elbow Touches  4    1-on-1 Five Spots   4  1-on-1 Guided Series  4  1-on-1 Guided vs Primary Def  5  1-on-1 Hi-5   5  1-on-1 Loop   5  1-on-1 Multi Primary & Stunt  6  1-on-1 Octopus   6  1-on-1 Paint Escape   6  1-on-1 Shadow   6  1-on-1 Sideline Angle  7  1-on-1 Smile   7  1-on-1 Surprise Hand-Oﬀ  7  1-on-1 Trail   8  1-on-1 Transition Finishes  8  1-on-1 Wing Finishes  8  1-on-1 Wing Touchdown  8  1-on-1 X Out   9  1-on-1+1 Blind Cut   9  1-on-2 Chaos   9  1-on-2 Guided vs Primary & Help Def 9  1-on-2 Guided vs Primary & Stunt Def 10  1-on-3 Guided vs All  10  1-on-1 Perceptual Finishes  10  CLOSEOUTS  1-on-1 Blast Pick-Up  10  1-on-1 Blasts Cone Gate  11  1-on-1 Bounce Closeouts  11  1-on-1 Guided Catch Footwork 12  1-on-1 Cone Blasts   12  1-on-1 Cone Touch   12  1-on-1 Multi Skip & Closeout  13  1-on-1 Sprint Ins   13  1-on-1 Sprint Pick-Up  14  1-on-1+1 Blast Cuts   14  1-on-1+1 Blind Closeout  14  1-on-1+1 Burst Closeouts   14  1-on-1+1 Corner Closeouts  15  1-on-1+1 Skip & Hi-5  15    SHOOTING  1-on-1 Catch Me if You Can  15  1-on-1 Drift and Lift   16  1-on-1 Exit Footwork  16   1-on-1 Figure of 8’s   17  1-on-1 Push-Oﬀ Shooting  18  1-on-1 Cone Tag   18  Move the Cones   18 
+
+CONTENTS  DRIBBLING  1-on-1 Change of Speed  18  1-on-1 Dribble Combos into Finish 18  1-on-1 Grid    19  1-on-1 Grid Attack   19    1-on-1 Guided Hip Turn  20  1-on-1 Guided Skates  20  1-on-1 Hip Turn   20   1-on-1 Hostage    20  1-on-1 Rooted   21  1-on-1 Skate and Push  21   1-on-1 Spanish Dribbles  22  1-on-1 Straight Line or Counter 22  1-on-1 Sumo   22  1-on-1 Through the Gate  22  1-on-2 HC Hit   23  1-on-2 Touchdown   23  1-on-3 Gladiator   24  Line Tag     24  Mirror Dribbling   25  Pac Man Tag    25  Push Out Races   26  Pylon Dribbles   26  Red Light, Green Light  27  Team Knock-Out   27  Team Tag    27  DEFENSE  1-on-1 Seven Seconds  27  1-on-1 Chest Blows   28  1-on-1 Close the Gate  28  1-on-1 Lane Turns   28  1-on-1 Mirror Game  28  1-on-1 Open & Chase  29  1-on-1 Protect the Paint  29  1-on-1 Surprise    29  4-on-4 Prison Break   29  PASSING  1-on-1 Ping Pong   30  1-on-1 Basketball Tennis  30  1-on-1+1 Grid Passing  31  1-on-1+1 Make a Lead  31  2-on-0 Rapid Fire Competition 32  2-on-1 Three in a Row  32  2-on-1 Pivot Surprise  32  2-on-2 Bowling Strikes  32  3-on-1 Passing   33  3-on-3 Touchdown   33  4-on-2 Rondo   33  4-on-4 Keep-Away   33  Basketball Handball  34  Four Spots   34  Hunter Tag   35  Pass Tag    35  Take Two Passing   35    POST  1-on-1 Quick-Ups   35  1-on-1+1 Deep Hooks  35  1-on-1+1 Deep Seals  35  2-on-2 Continuous    36  3-on-3 T Post Decisions  37  4-on-4 Korea into T Post  37
+
+ 4-on-4 Post Reactions  38  5-on-5 Post Surprise  39  REBOUNDING  1-on-1 Shuﬄe Rebounds  39  1-on-1+1 Hot Potato  39  1-on-1+1 Weakside Rebounding 40  PLAYER DEV MIX ACTIVITIES  1-on-1 Aces   40  1-on-1 Exit Passes   41  1-on-1 Gap Positioning   41  1-on-1 Pick-Up   41  1-on-1 Retreat    41  1-on-1 Two Ball   42  1-on-1+1 Get Flashes  42  1-on-1+1 Trail and Cut  42  1-on-1+2 Get Open   43  1-on-2 Find Space   44  2-on-1 Smash or Slip  44  2-on-1 Twist vs Under  44  2-on-2 Gets   44  PICK AND ROLL  1-on-1 Avoid the Pick  45  1-on-1+1 Cancel the Pick   45    2-on-2 Australia   45  2-on-2 Call the Coverage  46  2-on-2 Gentleman Stance  46  3-on-3 Hi Low vs Switch  46  3-on-3 Stack PNR   46  3-on-3 What Weapon vs Switch? 47  4-on-4 Scram Switch  47  4-on-4 Swing to Random PNR  48  TRIGGERS  3-on-3 Cross Screen  48  3-on-3 Touch Action  48  4-on-4 Cross Screen, Down Screen 49  TRANSITION  1-on-1+1 Leak Out   50   2-on-1 Continuous HC  51  2-on-1 Skip or Push   52  2-on-2 Two Side X-Out  52  2-on-3 Outlet   53  3-on-3 Rugby   53  4-on-3 Two Side   54  4-on-4 Line Touch   54  5-on-5 Train Transition  55  5-on-5 Wheel Start   55  Animals Game   56  Breakout and Baseball  56  Circle Touch   57  Spacing Races   57    DOMINOES REACTIONS  1-on-1 Multi Out to Space  58  1-on-1+1 Second Cuts  59  2-on-1 Shooting   59  2-on-1 Two Side Skip  60  2-on-1+1 Shooting   60  2-on-2 Lateral Stack  61 CONTENTS 
+ 2-on-2 Post Pen Reaction  61  2-on-2 Weave   61  2-on-2 Wheel Skip   62  3-on-2 Bursts   62  3-on-2 Zero Seconds  62  3-on-3 Coach Tag   62  3-on-3 Criss Cross   63  3-on-3 Two Side Coach Tag  63  4-on-3 Bursts   64  4-on-4 Coach Touch   64  4-on-4 Dominoes   64  TEAM DEV MIX ACTIVITIES  2-on-2 Neutral or Advantage  64  3-on-3 Three Stages   65  4-on-5 Attack   65  5-on-5-on-5 Charger  66  6-on-5 Zone   66  Attack the Mouse/ Turtle  67  Battleship   67  Cambio Game   68  Fortnite    68  PPP Scoring   69  Scramble Touch Game  69  Stack Start   70  Surprise Game    70  Team Scoring System  70  Floor is Lava Constraint   71    WARM-UPS & ENERGIZERS  Bing, Bang, Bong   71  Capture the Flag   72  Circle Tag    72  Cone Reaction   73  Pylon Exchanges   73  Rock, Paper, Scissors  74  Sheep & Wolf Tag   74  Stance Games   75  Tennis Ball Catches   75  Tennis Ball Drops   75  Tic Tac Toe Relay   76 CONTENTS 
+ Cleaned Table of contents:
+{
+    "table_of_contents": [
+        {
+            "structure": "1",
+            "title": "FINISHING",
+            "page": null
+        },
+        {
+            "structure": "1.1",
+            "title": "1-on-1 Around the Arc",
+            "page": "1"
+        },
+        {
+            "structure": "1.2",
+            "title": "1-on-1 Blind Start",
+            "page": "1"
+        },
+        {
+            "structure": "1.3",
+            "title": "1-on-1 Block",
+            "page": "1"
+        },
+        {
+            "structure": "1.4",
+            "title": "1-on-1 Bump Tap",
+            "page": "1"
+        },
+        {
+            "structure": "1.5",
+            "title": "1-on-1 Cat and Mouse",
+            "page": "2"
+        },
+        {
+            "structure": "1.6",
+            "title": "1-on-1 Chasedown",
+            "page": "2"
+        },
+        {
+            "structure": "1.7",
+            "title": "1-on-1 Continuous Posters",
+            "page": "3"
+        },
+        {
+            "structure": "1.8",
+            "title": "1-on-1 Corner Finishes",
+            "page": "3"
+        },
+        {
+            "structure": "1.9",
+            "title": "1-on-1 Double Contest",
+            "page": "4"
+        },
+        {
+            "structure": "1.10",
+            "title": "1-on-1 Elbow Touches",
+            "page": "4"
+        },
+        {
+            "structure": "1.11",
+            "title": "1-on-1 Five Spots",
+            "page": "4"
+        },
+        {
+            "structure": "1.12",
+            "title": "1-on-1 Guided Series",
+            "page": "4"
+        },
+        {
+            "structure": "1.13",
+            "title": "1-on-1 Guided vs Primary Def",
+            "page": "5"
+        },
+        {
+            "structure": "1.14",
+            "title": "1-on-1 Hi-5",
+            "page": "5"
+        },
+        {
+            "structure": "1.15",
+            "title": "1-on-1 Loop",
+            "page": "5"
+        },
+        {
+            "structure": "1.16",
+            "title": "1-on-1 Multi Primary & Stunt",
+            "page": "6"
+        },
+        {
+            "structure": "1.17",
+            "title": "1-on-1 Octopus",
+            "page": "6"
+        },
+        {
+            "structure": "1.18",
+            "title": "1-on-1 Paint Escape",
+            "page": "6"
+        },
+        {
+            "structure": "1.19",
+            "title": "1-on-1 Shadow",
+            "page": "6"
+        },
+        {
+            "structure": "1.20",
+            "title": "1-on-1 Sideline Angle",
+            "page": "7"
+        },
+        {
+            "structure": "1.21",
+            "title": "1-on-1 Smile",
+            "page": "7"
+        },
+        {
+            "structure": "1.22",
+            "title": "1-on-1 Surprise Hand-Off",
+            "page": "7"
+        },
+        {
+            "structure": "1.23",
+            "title": "1-on-1 Trail",
+            "page": "8"
+        },
+        {
+            "structure": "1.24",
+            "title": "1-on-1 Transition Finishes",
+            "page": "8"
+        },
+        {
+            "structure": "1.25",
+            "title": "1-on-1 Wing Finishes",
+            "page": "8"
+        },
+        {
+            "structure": "1.26",
+            "title": "1-on-1 Wing Touchdown",
+            "page": "8"
+        },
+        {
+            "structure": "1.27",
+            "title": "1-on-1 X Out",
+            "page": "9"
+        },
+        {
+            "structure": "1.28",
+            "title": "1-on-1+1 Blind Cut",
+            "page": "9"
+        },
+        {
+            "structure": "1.29",
+            "title": "1-on-2 Chaos",
+            "page": "9"
+        },
+        {
+            "structure": "1.30",
+            "title": "1-on-2 Guided vs Primary & Help Def",
+            "page": "9"
+        },
+        {
+            "structure": "1.31",
+            "title": "1-on-2 Guided vs Primary & Stunt Def",
+            "page": "10"
+        },
+        {
+            "structure": "1.32",
+            "title": "1-on-3 Guided vs All",
+            "page": "10"
+        },
+        {
+            "structure": "1.33",
+            "title": "1-on-1 Perceptual Finishes",
+            "page": "10"
+        },
+        {
+            "structure": "2",
+            "title": "CLOSEOUTS",
+            "page": null
+        },
+        {
+            "structure": "2.1",
+            "title": "1-on-1 Blast Pick-Up",
+            "page": "10"
+        },
+        {
+            "structure": "2.2",
+            "title": "1-on-1 Blasts Cone Gate",
+            "page": "11"
+        },
+        {
+            "structure": "2.3",
+            "title": "1-on-1 Bounce Closeouts",
+            "page": "11"
+        },
+        {
+            "structure": "2.4",
+            "title": "1-on-1 Guided Catch Footwork",
+            "page": "12"
+        },
+        {
+            "structure": "2.5",
+            "title": "1-on-1 Cone Blasts",
+            "page": "12"
+        },
+        {
+            "structure": "2.6",
+            "title": "1-on-1 Cone Touch",
+            "page": "12"
+        },
+        {
+            "structure": "2.7",
+            "title": "1-on-1 Multi Skip & Closeout",
+            "page": "13"
+        },
+        {
+            "structure": "2.8",
+            "title": "1-on-1 Sprint Ins",
+            "page": "13"
+        },
+        {
+            "structure": "2.9",
+            "title": "1-on-1 Sprint Pick-Up",
+            "page": "14"
+        },
+        {
+            "structure": "2.10",
+            "title": "1-on-1+1 Blast Cuts",
+            "page": "14"
+        },
+        {
+            "structure": "2.11",
+            "title": "1-on-1+1 Blind Closeout",
+            "page": "14"
+        },
+        {
+            "structure": "2.12",
+            "title": "1-on-1+1 Burst Closeouts",
+            "page": "14"
+        },
+        {
+            "structure": "2.13",
+            "title": "1-on-1+1 Corner Closeouts",
+            "page": "15"
+        },
+        {
+            "structure": "2.14",
+            "title": "1-on-1+1 Skip & Hi-5",
+            "page": "15"
+        },
+        {
+            "structure": "3",
+            "title": "SHOOTING",
+            "page": null
+        },
+        {
+            "structure": "3.1",
+            "title": "1-on-1 Catch Me if You Can",
+            "page": "15"
+        },
+        {
+            "structure": "3.2",
+            "title": "1-on-1 Drift and Lift",
+            "page": "16"
+        },
+        {
+            "structure": "3.3",
+            "title": "1-on-1 Exit Footwork",
+            "page": "16"
+        },
+        {
+            "structure": "3.4",
+            "title": "1-on-1 Figure of 8’s",
+            "page": "17"
+        },
+        {
+            "structure": "3.5",
+            "title": "1-on-1 Push-Off Shooting",
+            "page": "18"
+        },
+        {
+            "structure": "3.6",
+            "title": "1-on-1 Cone Tag",
+            "page": "18"
+        },
+        {
+            "structure": "3.7",
+            "title": "Move the Cones",
+            "page": "18"
+        },
+        {
+            "structure": "4",
+            "title": "DRIBBLING",
+            "page": null
+        },
+        {
+            "structure": "4.1",
+            "title": "1-on-1 Change of Speed",
+            "page": "18"
+        },
+        {
+            "structure": "4.2",
+            "title": "1-on-1 Dribble Combos into Finish",
+            "page": "18"
+        },
+        {
+            "structure": "4.3",
+            "title": "1-on-1 Grid",
+            "page": "19"
+        },
+        {
+            "structure": "4.4",
+            "title": "1-on-1 Grid Attack",
+            "page": "19"
+        },
+        {
+            "structure": "4.5",
+            "title": "1-on-1 Guided Hip Turn",
+            "page": "20"
+        },
+        {
+            "structure": "4.6",
+            "title": "1-on-1 Guided Skates",
+            "page": "20"
+        },
+        {
+            "structure": "4.7",
+            "title": "1-on-1 Hip Turn",
+            "page": "20"
+        },
+        {
+            "structure": "4.8",
+            "title": "1-on-1 Hostage",
+            "page": "20"
+        },
+        {
+            "structure": "4.9",
+            "title": "1-on-1 Rooted",
+            "page": "21"
+        },
+        {
+            "structure": "4.10",
+            "title": "1-on-1 Skate and Push",
+            "page": "21"
+        },
+        {
+            "structure": "4.11",
+            "title": "1-on-1 Spanish Dribbles",
+            "page": "22"
+        },
+        {
+            "structure": "4.12",
+            "title": "1-on-1 Straight Line or Counter",
+            "page": "22"
+        },
+        {
+            "structure": "4.13",
+            "title": "1-on-1 Sumo",
+            "page": "22"
+        },
+        {
+            "structure": "4.14",
+            "title": "1-on-1 Through the Gate",
+            "page": "22"
+        },
+        {
+            "structure": "4.15",
+            "title": "1-on-2 HC Hit",
+            "page": "23"
+        },
+        {
+            "structure": "4.16",
+            "title": "1-on-2 Touchdown",
+            "page": "23"
+        },
+        {
+            "structure": "4.17",
+            "title": "1-on-3 Gladiator",
+            "page": "24"
+        },
+        {
+            "structure": "4.18",
+            "title": "Line Tag",
+            "page": "24"
+        },
+        {
+            "structure": "4.19",
+            "title": "Mirror Dribbling",
+            "page": "25"
+        },
+        {
+            "structure": "4.20",
+            "title": "Pac Man Tag",
+            "page": "25"
+        },
+        {
+            "structure": "4.21",
+            "title": "Push Out Races",
+            "page": "26"
+        },
+        {
+            "structure": "4.22",
+            "title": "Pylon Dribbles",
+            "page": "26"
+        },
+        {
+            "structure": "4.23",
+            "title": "Red Light, Green Light",
+            "page": "27"
+        },
+        {
+            "structure": "4.24",
+            "title": "Team Knock-Out",
+            "page": "27"
+        },
+        {
+            "structure": "4.25",
+            "title": "Team Tag",
+            "page": "27"
+        },
+        {
+            "structure": "5",
+            "title": "DEFENSE",
+            "page": null
+        },
+        {
+            "structure": "5.1",
+            "title": "1-on-1 Seven Seconds",
+            "page": "27"
+        },
+        {
+            "structure": "5.2",
+            "title": "1-on-1 Chest Blows",
+            "page": "28"
+        },
+        {
+            "structure": "5.3",
+            "title": "1-on-1 Close the Gate",
+            "page": "28"
+        },
+        {
+            "structure": "5.4",
+            "title": "1-on-1 Lane Turns",
+            "page": "28"
+        },
+        {
+            "structure": "5.5",
+            "title": "1-on-1 Mirror Game",
+            "page": "28"
+        },
+        {
+            "structure": "5.6",
+            "title": "1-on-1 Open & Chase",
+            "page": "29"
+        },
+        {
+            "structure": "5.7",
+            "title": "1-on-1 Protect the Paint",
+            "page": "29"
+        },
+        {
+            "structure": "5.8",
+            "title": "1-on-1 Surprise",
+            "page": "29"
+        },
+        {
+            "structure": "5.9",
+            "title": "4-on-4 Prison Break",
+            "page": "29"
+        },
+        {
+            "structure": "6",
+            "title": "PASSING",
+            "page": null
+        },
+        {
+            "structure": "6.1",
+            "title": "1-on-1 Ping Pong",
+            "page": "30"
+        },
+        {
+            "structure": "6.2",
+            "title": "1-on-1 Basketball Tennis",
+            "page": "30"
+        },
+        {
+            "structure": "6.3",
+            "title": "1-on-1+1 Grid Passing",
+            "page": "31"
+        },
+        {
+            "structure": "6.4",
+            "title": "1-on-1+1 Make a Lead",
+            "page": "31"
+        },
+        {
+            "structure": "6.5",
+            "title": "2-on-0 Rapid Fire Competition",
+            "page": "32"
+        },
+        {
+            "structure": "6.6",
+            "title": "2-on-1 Three in a Row",
+            "page": "32"
+        },
+        {
+            "structure": "6.7",
+            "title": "2-on-1 Pivot Surprise",
+            "page": "32"
+        },
+        {
+            "structure": "6.8",
+            "title": "2-on-2 Bowling Strikes",
+            "page": "32"
+        },
+        {
+            "structure": "6.9",
+            "title": "3-on-1 Passing",
+            "page": "33"
+        },
+        {
+            "structure": "6.10",
+            "title": "3-on-3 Touchdown",
+            "page": "33"
+        },
+        {
+            "structure": "6.11",
+            "title": "4-on-2 Rondo",
+            "page": "33"
+        },
+        {
+            "structure": "6.12",
+            "title": "4-on-4 Keep-Away",
+            "page": "33"
+        },
+        {
+            "structure": "6.13",
+            "title": "Basketball Handball",
+            "page": "34"
+        },
+        {
+            "structure": "6.14",
+            "title": "Four Spots",
+            "page": "34"
+        },
+        {
+            "structure": "6.15",
+            "title": "Hunter Tag",
+            "page": "35"
+        },
+        {
+            "structure": "6.16",
+            "title": "Pass Tag",
+            "page": "35"
+        },
+        {
+            "structure": "6.17",
+            "title": "Take Two Passing",
+            "page": "35"
+        },
+        {
+            "structure": "7",
+            "title": "POST",
+            "page": null
+        },
+        {
+            "structure": "7.1",
+            "title": "1-on-1 Quick-Ups",
+            "page": "35"
+        },
+        {
+            "structure": "7.2",
+            "title": "1-on-1+1 Deep Hooks",
+            "page": "35"
+        },
+        {
+            "structure": "7.3",
+            "title": "1-on-1+1 Deep Seals",
+            "page": "35"
+        },
+        {
+            "structure": "7.4",
+            "title": "2-on-2 Continuous",
+            "page": "36"
+        },
+        {
+            "structure": "7.5",
+            "title": "3-on-3 T Post Decisions",
+            "page": "37"
+        },
+        {
+            "structure": "7.6",
+            "title": "4-on-4 Korea into T Post",
+            "page": "37"
+        },
+        {
+            "structure": "7.7",
+            "title": "4-on-4 Post Reactions",
+            "page": "38"
+        },
+        {
+            "structure": "7.8",
+            "title": "5-on-5 Post Surprise",
+            "page": "39"
+        },
+        {
+            "structure": "8",
+            "title": "REBOUNDING",
+            "page": null
+        },
+        {
+            "structure": "8.1",
+            "title": "1-on-1 Shuffle Rebounds",
+            "page": "39"
+        },
+        {
+            "structure": "8.2",
+            "title": "1-on-1+1 Hot Potato",
+            "page": "39"
+        },
+        {
+            "structure": "8.3",
+            "title": "1-on-1+1 Weakside Rebounding",
+            "page": "40"
+        },
+        {
+            "structure": "9",
+            "title": "PLAYER DEV MIX ACTIVITIES",
+            "page": null
+        },
+        {
+            "structure": "9.1",
+            "title": "1-on-1 Aces",
+            "page": "40"
+        },
+        {
+            "structure": "9.2",
+            "title": "1-on-1 Exit Passes",
+            "page": "41"
+        },
+        {
+            "structure": "9.3",
+            "title": "1-on-1 Gap Positioning",
+            "page": "41"
+        },
+        {
+            "structure": "9.4",
+            "title": "1-on-1 Pick-Up",
+            "page": "41"
+        },
+        {
+            "structure": "9.5",
+            "title": "1-on-1 Retreat",
+            "page": "41"
+        },
+        {
+            "structure": "9.6",
+            "title": "1-on-1 Two Ball",
+            "page": "42"
+        },
+        {
+            "structure": "9.7",
+            "title": "1-on-1+1 Get Flashes",
+            "page": "42"
+        },
+        {
+            "structure": "9.8",
+            "title": "1-on-1+1 Trail and Cut",
+            "page": "42"
+        },
+        {
+            "structure": "9.9",
+            "title": "1-on-1+2 Get Open",
+            "page": "43"
+        },
+        {
+            "structure": "9.10",
+            "title": "1-on-2 Find Space",
+            "page": "44"
+        },
+        {
+            "structure": "9.11",
+            "title": "2-on-1 Smash or Slip",
+            "page": "44"
+        },
+        {
+            "structure": "9.12",
+            "title": "2-on-1 Twist vs Under",
+            "page": "44"
+        },
+        {
+            "structure": "9.13",
+            "title": "2-on-2 Gets",
+            "page": "44"
+        },
+        {
+            "structure": "10",
+            "title": "PICK AND ROLL",
+            "page": null
+        },
+        {
+            "structure": "10.1",
+            "title": "1-on-1 Avoid the Pick",
+            "page": "45"
+        },
+        {
+            "structure": "10.2",
+            "title": "1-on-1+1 Cancel the Pick",
+            "page": "45"
+        },
+        {
+            "structure": "10.3",
+            "title": "2-on-2 Australia",
+            "page": "45"
+        },
+        {
+            "structure": "10.4",
+            "title": "2-on-2 Call the Coverage",
+            "page": "46"
+        },
+        {
+            "structure": "10.5",
+            "title": "2-on-2 Gentleman Stance",
+            "page": "46"
+        },
+        {
+            "structure": "10.6",
+            "title": "3-on-3 Hi Low vs Switch",
+            "page": "46"
+        },
+        {
+            "structure": "10.7",
+            "title": "3-on-3 Stack PNR",
+            "page": "46"
+        },
+        {
+            "structure": "10.8",
+            "title": "3-on-3 What Weapon vs Switch?",
+            "page": "47"
+        },
+        {
+            "structure": "10.9",
+            "title": "4-on-4 Scram Switch",
+            "page": "47"
+        },
+        {
+            "structure": "10.10",
+            "title": "4-on-4 Swing to Random PNR",
+            "page": "48"
+        },
+        {
+            "structure": "11",
+            "title": "TRIGGERS",
+            "page": null
+        },
+        {
+            "structure": "11.1",
+            "title": "3-on-3 Cross Screen",
+            "page": "48"
+        },
+        {
+            "structure": "11.2",
+            "title": "3-on-3 Touch Action",
+            "page": "48"
+        },
+        {
+            "structure": "11.3",
+            "title": "4-on-4 Cross Screen, Down Screen",
+            "page": "49"
+        },
+        {
+            "structure": "12",
+            "title": "TRANSITION",
+            "page": null
+        },
+        {
+            "structure": "12.1",
+            "title": "1-on-1+1 Leak Out",
+            "page": "50"
+        },
+        {
+            "structure": "12.2",
+            "title": "2-on-1 Continuous HC",
+            "page": "51"
+        },
+        {
+            "structure": "12.3",
+            "title": "2-on-1 Skip or Push",
+            "page": "52"
+        },
+        {
+            "structure": "12.4",
+            "title": "2-on-2 Two Side X-Out",
+            "page": "52"
+        },
+        {
+            "structure": "12.5",
+            "title": "2-on-3 Outlet",
+            "page": "53"
+        },
+        {
+            "structure": "12.6",
+            "title": "3-on-3 Rugby",
+            "page": "53"
+        },
+        {
+            "structure": "12.7",
+            "title": "4-on-3 Two Side",
+            "page": "54"
+        },
+        {
+            "structure": "12.8",
+            "title": "4-on-4 Line Touch",
+            "page": "54"
+        },
+        {
+            "structure": "12.9",
+            "title": "5-on-5 Train Transition",
+            "page": "55"
+        },
+        {
+            "structure": "12.10",
+            "title": "5-on-5 Wheel Start",
+            "page": "55"
+        },
+        {
+            "structure": "12.11",
+            "title": "Animals Game",
+            "page": "56"
+        },
+        {
+            "structure": "12.12",
+            "title": "Breakout and Baseball",
+            "page": "56"
+        },
+        {
+            "structure": "12.13",
+            "title": "Circle Touch",
+            "page": "57"
+        },
+        {
+            "structure": "12.14",
+            "title": "Spacing Races",
+            "page": "57"
+        },
+        {
+            "structure": "13",
+            "title": "DOMINOES REACTIONS",
+            "page": null
+        },
+        {
+            "structure": "13.1",
+            "title": "1-on-1 Multi Out to Space",
+            "page": "58"
+        },
+        {
+            "structure": "13.2",
+            "title": "1-on-1+1 Second Cuts",
+            "page": "59"
+        },
+        {
+            "structure": "13.3",
+            "title": "2-on-1 Shooting",
+            "page": "59"
+        },
+        {
+            "structure": "13.4",
+            "title": "2-on-1 Two Side Skip",
+            "page": "60"
+        },
+        {
+            "structure": "13.5",
+            "title": "2-on-1+1 Shooting",
+            "page": "60"
+        },
+        {
+            "structure": "13.6",
+            "title": "2-on-2 Lateral Stack",
+            "page": "61"
+        },
+        {
+            "structure": "13.7",
+            "title": "2-on-2 Post Pen Reaction",
+            "page": "61"
+        },
+        {
+            "structure": "13.8",
+            "title": "2-on-2 Weave",
+            "page": "61"
+        },
+        {
+            "structure": "13.9",
+            "title": "2-on-2 Wheel Skip",
+            "page": "62"
+        },
+        {
+            "structure": "13.10",
+            "title": "3-on-2 Bursts",
+            "page": "62"
+        },
+        {
+            "structure": "13.11",
+            "title": "3-on-2 Zero Seconds",
+            "page": "62"
+        },
+        {
+            "structure": "13.12",
+            "title": "3-on-3 Coach Tag",
+            "page": "62"
+        },
+        {
+            "structure": "13.13",
+            "title": "3-on-3 Criss Cross",
+            "page": "63"
+        },
+        {
+            "structure": "13.14",
+            "title": "3-on-3 Two Side Coach Tag",
+            "page": "63"
+        },
+        {
+            "structure": "13.15",
+            "title": "4-on-3 Bursts",
+            "page": "64"
+        },
+        {
+            "structure": "13.16",
+            "title": "4-on-4 Coach Touch",
+            "page": "64"
+        },
+        {
+            "structure": "13.17",
+            "title": "4-on-4 Dominoes",
+            "page": "64"
+        },
+        {
+            "structure": "14",
+            "title": "TEAM DEV MIX ACTIVITIES",
+            "page": null
+        },
+        {
+            "structure": "14.1",
+            "title": "2-on-2 Neutral or Advantage",
+            "page": "64"
+        },
+        {
+            "structure": "14.2",
+            "title": "3-on-3 Three Stages",
+            "page": "65"
+        },
+        {
+            "structure": "14.3",
+            "title": "4-on-5 Attack",
+            "page": "65"
+        },
+        {
+            "structure": "14.4",
+            "title": "5-on-5-on-5 Charger",
+            "page": "66"
+        },
+        {
+            "structure": "14.5",
+            "title": "6-on-5 Zone",
+            "page": "66"
+        },
+        {
+            "structure": "14.6",
+            "title": "Attack the Mouse/ Turtle",
+            "page": "67"
+        },
+        {
+            "structure": "14.7",
+            "title": "Battleship",
+            "page": "67"
+        },
+        {
+            "structure": "14.8",
+            "title": "Cambio Game",
+            "page": "68"
+        },
+        {
+            "structure": "14.9",
+            "title": "Fortnite",
+            "page": "68"
+        },
+        {
+            "structure": "14.10",
+            "title": "PPP Scoring",
+            "page": "69"
+        },
+        {
+            "structure": "14.11",
+            "title": "Scramble Touch Game",
+            "page": "69"
+        },
+        {
+            "structure": "14.12",
+            "title": "Stack Start",
+            "page": "70"
+        },
+        {
+            "structure": "14.13",
+            "title": "Surprise Game",
+            "page": "70"
+        },
+        {
+            "structure": "14.14",
+            "title": "Team Scoring System",
+            "page": "70"
+        },
+        {
+            "structure": "14.15",
+            "title": "Floor is Lava Constraint",
+            "page": "71"
+        },
+        {
+            "structure": "15",
+            "title": "WARM-UPS & ENERGIZERS",
+            "page": null
+        },
+        {
+            "structure": "15.1",
+            "title": "Bing, Bang, Bong",
+            "page": "71"
+        },
+        {
+            "structure": "15.2",
+            "title": "Capture the Flag",
+            "page": "72"
+        },
+        {
+            "structure": "15.3",
+            "title": "Circle Tag",
+            "page": "72"
+        },
+        {
+            "structure": "15.4",
+            "title": "Cone Reaction",
+            "page": "73"
+        },
+        {
+            "structure": "15.5",
+            "title": "Pylon Exchanges",
+            "page": "73"
+        },
+        {
+            "structure": "15.6",
+            "title": "Rock, Paper, Scissors",
+            "page": "74"
+        },
+        {
+            "structure": "15.7",
+            "title": "Sheep & Wolf Tag",
+            "page": "74"
+        },
+        {
+            "structure": "15.8",
+            "title": "Stance Games",
+            "page": "75"
+        },
+        {
+            "structure": "15.9",
+            "title": "Tennis Ball Catches",
+            "page": "75"
+        },
+        {
+            "structure": "15.10",
+            "title": "Tennis Ball Drops",
+            "page": "75"
+        },
+        {
+            "structure": "15.11",
+            "title": "Tic Tac Toe Relay",
+            "page": "76"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "16",
+            "title": "CONSTRAINTS",
+            "page": null
+        },
+        {
+            "structure": "16.1",
+            "title": "1-on-1 No Dribble",
+            "page": "77"
+        },
+        {
+            "structure": "16.2",
+            "title": "1-on-1 One Dribble",
+            "page": "77"
+        },
+        {
+            "structure": "16.3",
+            "title": "1-on-1 Two Dribbles",
+            "page": "78"
+        },
+        {
+            "structure": "16.4",
+            "title": "1-on-1 No Paint",
+            "page": "78"
+        },
+        {
+            "structure": "16.5",
+            "title": "1-on-1 No Backboard",
+            "page": "79"
+        },
+        {
+            "structure": "16.6",
+            "title": "1-on-1 No Layups",
+            "page": "79"
+        },
+        {
+            "structure": "16.7",
+            "title": "1-on-1 No Jump Shots",
+            "page": "80"
+        },
+        {
+            "structure": "16.8",
+            "title": "1-on-1 Weak Hand Only",
+            "page": "80"
+        },
+        {
+            "structure": "16.9",
+            "title": "1-on-1 Strong Hand Only",
+            "page": "81"
+        },
+        {
+            "structure": "16.10",
+            "title": "1-on-1 No Screens",
+            "page": "81"
+        },
+        {
+            "structure": "16.11",
+            "title": "1-on-1 No Help Defense",
+            "page": "82"
+        },
+        {
+            "structure": "16.12",
+            "title": "1-on-1 No Offensive Rebounds",
+            "page": "82"
+        },
+        {
+            "structure": "16.13",
+            "title": "1-on-1 No Defensive Rebounds",
+            "page": "83"
+        },
+        {
+            "structure": "16.14",
+            "title": "1-on-1 No Fouls Allowed",
+            "page": "83"
+        },
+        {
+            "structure": "16.15",
+            "title": "1-on-1 No Time Limit",
+            "page": "84"
+        },
+        {
+            "structure": "16.16",
+            "title": "1-on-1 Shot Clock",
+            "page": "84"
+        },
+        {
+            "structure": "16.17",
+            "title": "1-on-1 Half Court Only",
+            "page": "85"
+        },
+        {
+            "structure": "16.18",
+            "title": "1-on-1 Full Court",
+            "page": "85"
+        },
+        {
+            "structure": "16.19",
+            "title": "1-on-1 No Out of Bounds",
+            "page": "86"
+        },
+        {
+            "structure": "16.20",
+            "title": "1-on-1 No Rest Between Plays",
+            "page": "86"
+        }
+    ]
+}{
+            "structure": "17",
+            "title": "FUN GAMES",
+            "page": null
+        },
+        {
+            "structure": "17.1",
+            "title": "Knockout",
+            "page": "87"
+        },
+        {
+            "structure": "17.2",
+            "title": "Around the World",
+            "page": "87"
+        },
+        {
+            "structure": "17.3",
+            "title": "Horse",
+            "page": "88"
+        },
+        {
+            "structure": "17.4",
+            "title": "21",
+            "page": "88"
+        },
+        {
+            "structure": "17.5",
+            "title": "King of the Court",
+            "page": "89"
+        },
+        {
+            "structure": "17.6",
+            "title": "Lightning",
+            "page": "89"
+        },
+        {
+            "structure": "17.7",
+            "title": "Sharks and Minnows",
+            "page": "90"
+        },
+        {
+            "structure": "17.8",
+            "title": "Basketball Golf",
+            "page": "90"
+        },
+        {
+            "structure": "17.9",
+            "title": "Hot Shot",
+            "page": "91"
+        },
+        {
+            "structure": "17.10",
+            "title": "Dribble Knockout",
+            "page": "91"
+        },
+        {
+            "structure": "17.11",
+            "title": "Free Throw Challenge",
+            "page": "92"
+        },
+        {
+            "structure": "17.12",
+            "title": "Relay Races",
+            "page": "92"
+        },
+        {
+            "structure": "17.13",
+            "title": "Obstacle Course",
+            "page": "93"
+        },
+        {
+            "structure": "17.14",
+            "title": "Tag Team Shooting",
+            "page": "93"
+        },
+        {
+            "structure": "17.15",
+            "title": "Capture the Ball",
+            "page": "94"
+        },
+        {
+            "structure": "17.16",
+            "title": "Basketball Trivia",
+            "page": "94"
+        },
+        {
+            "structure": "17.17",
+            "title": "Simon Says Basketball",
+            "page": "95"
+        },
+        {
+            "structure": "17.18",
+            "title": "Basketball Charades",
+            "page": "95"
+        },
+        {
+            "structure": "18",
+            "title": "COACHING TIPS",
+            "page": null
+        },
+        {
+            "structure": "18.1",
+            "title": "Building Team Chemistry",
+            "page": "96"
+        },
+        {
+            "structure": "18.2",
+            "title": "Effective Communication",
+            "page": "96"
+        },
+        {
+            "structure": "18.3",
+            "title": "Motivating Players",
+            "page": "97"
+        },
+        {
+            "structure": "18.4",
+            "title": "Developing Leadership",
+            "page": "97"
+        },
+        {
+            "structure": "18.5",
+            "title": "Creating Practice Plans",
+            "page": "98"
+        },
+        {
+            "structure": "18.6",
+            "title": "Game Day Preparation",
+            "page": "98"
+        },
+        {
+            "structure": "18.7",
+            "title": "Analyzing Game Film",
+            "page": "99"
+        },
+        {
+            "structure": "18.8",
+            "title": "Managing Player Roles",
+            "page": "99"
+        },
+        {
+            "structure": "18.9",
+            "title": "Handling Pressure Situations",
+            "page": "100"
+        },
+        {
+            "structure": "18.10",
+            "title": "Post-Game Evaluations",
+            "page": "100"
+        }
+    ]
+}{
+            "structure": "19",
+            "title": "PHYSICAL CONDITIONING",
+            "page": null
+        },
+        {
+            "structure": "19.1",
+            "title": "Dynamic Warm-Ups",
+            "page": "101"
+        },
+        {
+            "structure": "19.2",
+            "title": "Agility Drills",
+            "page": "101"
+        },
+        {
+            "structure": "19.3",
+            "title": "Plyometric Exercises",
+            "page": "102"
+        },
+        {
+            "structure": "19.4",
+            "title": "Strength Training",
+            "page": "102"
+        },
+        {
+            "structure": "19.5",
+            "title": "Core Stability",
+            "page": "103"
+        },
+        {
+            "structure": "19.6",
+            "title": "Endurance Workouts",
+            "page": "103"
+        },
+        {
+            "structure": "19.7",
+            "title": "Speed Training",
+            "page": "104"
+        },
+        {
+            "structure": "19.8",
+            "title": "Recovery Techniques",
+            "page": "104"
+        },
+        {
+            "structure": "19.9",
+            "title": "Flexibility Exercises",
+            "page": "105"
+        },
+        {
+            "structure": "19.10",
+            "title": "Injury Prevention",
+            "page": "105"
+        },
+        {
+            "structure": "20",
+            "title": "MENTAL TRAINING",
+            "page": null
+        },
+        {
+            "structure": "20.1",
+            "title": "Visualization Techniques",
+            "page": "106"
+        },
+        {
+            "structure": "20.2",
+            "title": "Focus Drills",
+            "page": "106"
+        },
+        {
+            "structure": "20.3",
+            "title": "Building Confidence",
+            "page": "107"
+        },
+        {
+            "structure": "20.4",
+            "title": "Stress Management",
+            "page": "107"
+        },
+        {
+            "structure": "20.5",
+            "title": "Goal Setting",
+            "page": "108"
+        },
+        {
+            "structure": "20.6",
+            "title": "Positive Self-Talk",
+            "page": "108"
+        },
+        {
+            "structure": "20.7",
+            "title": "Team Mentality",
+            "page": "109"
+        },
+        {
+            "structure": "20.8",
+            "title": "Overcoming Adversity",
+            "page": "109"
+        },
+        {
+            "structure": "20.9",
+            "title": "Mindfulness Exercises",
+            "page": "110"
+        },
+        {
+            "structure": "20.10",
+            "title": "Pre-Game Routines",
+            "page": "110"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "21",
+            "title": "NUTRITION",
+            "page": null
+        },
+        {
+            "structure": "21.1",
+            "title": "Pre-Game Meals",
+            "page": "111"
+        },
+        {
+            "structure": "21.2",
+            "title": "Post-Game Recovery Nutrition",
+            "page": "111"
+        },
+        {
+            "structure": "21.3",
+            "title": "Hydration Strategies",
+            "page": "112"
+        },
+        {
+            "structure": "21.4",
+            "title": "Snacks for Energy",
+            "page": "112"
+        },
+        {
+            "structure": "21.5",
+            "title": "Supplements and Vitamins",
+            "page": "113"
+        },
+        {
+            "structure": "21.6",
+            "title": "Meal Planning for Athletes",
+            "page": "113"
+        },
+        {
+            "structure": "21.7",
+            "title": "Balancing Macronutrients",
+            "page": "114"
+        },
+        {
+            "structure": "21.8",
+            "title": "Foods to Avoid",
+            "page": "114"
+        },
+        {
+            "structure": "21.9",
+            "title": "Nutrition Myths",
+            "page": "115"
+        },
+        {
+            "structure": "21.10",
+            "title": "Special Diets for Performance",
+            "page": "115"
+        },
+        {
+            "structure": "22",
+            "title": "TECHNOLOGY IN BASKETBALL",
+            "page": null
+        },
+        {
+            "structure": "22.1",
+            "title": "Wearable Technology",
+            "page": "116"
+        },
+        {
+            "structure": "22.2",
+            "title": "Video Analysis Tools",
+            "page": "116"
+        },
+        {
+            "structure": "22.3",
+            "title": "Performance Tracking Apps",
+            "page": "117"
+        },
+        {
+            "structure": "22.4",
+            "title": "Virtual Reality Training",
+            "page": "117"
+        },
+        {
+            "structure": "22.5",
+            "title": "Smart Basketballs",
+            "page": "118"
+        },
+        {
+            "structure": "22.6",
+            "title": "Data Analytics in Coaching",
+            "page": "118"
+        },
+        {
+            "structure": "22.7",
+            "title": "Social Media for Player Development",
+            "page": "119"
+        },
+        {
+            "structure": "22.8",
+            "title": "E-Learning Platforms",
+            "page": "119"
+        },
+        {
+            "structure": "22.9",
+            "title": "Technology for Fan Engagement",
+            "page": "120"
+        },
+        {
+            "structure": "22.10",
+            "title": "Future Trends in Basketball Technology",
+            "page": "120"
+        },
+        {
+            "structure": "23",
+            "title": "OFFICIATING",
+            "page": null
+        },
+        {
+            "structure": "23.1",
+            "title": "Rules of the Game",
+            "page": "121"
+        },
+        {
+            "structure": "23.2",
+            "title": "Referee Signals",
+            "page": "121"
+        },
+        {
+            "structure": "23.3",
+            "title": "Common Fouls and Violations",
+            "page": "122"
+        },
+        {
+            "structure": "23.4",
+            "title": "Officiating Mechanics",
+            "page": "122"
+        },
+        {
+            "structure": "23.5",
+            "title": "Conflict Resolution",
+            "page": "123"
+        },
+        {
+            "structure": "23.6",
+            "title": "Game Management",
+            "page": "123"
+        },
+        {
+            "structure": "23.7",
+            "title": "Training for Referees",
+            "page": "124"
+        },
+        {
+            "structure": "23.8",
+            "title": "Technology in Officiating",
+            "page": "124"
+        },
+        {
+            "structure": "23.9",
+            "title": "Ethics and Integrity",
+            "page": "125"
+        },
+        {
+            "structure": "23.10",
+            "title": "Becoming a Certified Referee",
+            "page": "125"
+        },
+        {
+            "structure": "24",
+            "title": "HISTORY OF BASKETBALL",
+            "page": null
+        },
+        {
+            "structure": "24.1",
+            "title": "Origins of the Game",
+            "page": "126"
+        },
+        {
+            "structure": "24.2",
+            "title": "Evolution of Rules",
+            "page": "126"
+        },
+        {
+            "structure": "24.3",
+            "title": "Famous Players and Coaches",
+            "page": "127"
+        },
+        {
+            "structure": "24.4",
+            "title": "Milestones in Basketball History",
+            "page": "127"
+        },
+        {
+            "structure": "24.5",
+            "title": "Development of Professional Leagues",
+            "page": "128"
+        },
+        {
+            "structure": "24.6",
+            "title": "International Basketball",
+            "page": "128"
+        },
+        {
+            "structure": "24.7",
+            "title": "Basketball in the Olympics",
+            "page": "129"
+        },
+        {
+            "structure": "24.8",
+            "title": "Impact of Basketball on Culture",
+            "page": "129"
+        },
+        {
+            "structure": "24.9",
+            "title": "Women in Basketball",
+            "page": "130"
+        },
+        {
+            "structure": "24.10",
+            "title": "Future of Basketball",
+            "page": "130"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "25",
+            "title": "BASKETBALL STRATEGY",
+            "page": null
+        },
+        {
+            "structure": "25.1",
+            "title": "Offensive Strategies",
+            "page": "131"
+        },
+        {
+            "structure": "25.2",
+            "title": "Defensive Strategies",
+            "page": "131"
+        },
+        {
+            "structure": "25.3",
+            "title": "Zone Offense",
+            "page": "132"
+        },
+        {
+            "structure": "25.4",
+            "title": "Man-to-Man Defense",
+            "page": "132"
+        },
+        {
+            "structure": "25.5",
+            "title": "Press Breakers",
+            "page": "133"
+        },
+        {
+            "structure": "25.6",
+            "title": "Fast Break Offense",
+            "page": "133"
+        },
+        {
+            "structure": "25.7",
+            "title": "Special Situations",
+            "page": "134"
+        },
+        {
+            "structure": "25.8",
+            "title": "End-of-Game Scenarios",
+            "page": "134"
+        },
+        {
+            "structure": "25.9",
+            "title": "Timeout Strategies",
+            "page": "135"
+        },
+        {
+            "structure": "25.10",
+            "title": "Adjusting to Opponents",
+            "page": "135"
+        },
+        {
+            "structure": "26",
+            "title": "BASKETBALL EQUIPMENT",
+            "page": null
+        },
+        {
+            "structure": "26.1",
+            "title": "Basketball Types",
+            "page": "136"
+        },
+        {
+            "structure": "26.2",
+            "title": "Court Dimensions",
+            "page": "136"
+        },
+        {
+            "structure": "26.3",
+            "title": "Hoop Specifications",
+            "page": "137"
+        },
+        {
+            "structure": "26.4",
+            "title": "Player Gear",
+            "page": "137"
+        },
+        {
+            "structure": "26.5",
+            "title": "Training Aids",
+            "page": "138"
+        },
+        {
+            "structure": "26.6",
+            "title": "Scoreboards and Timers",
+            "page": "138"
+        },
+        {
+            "structure": "26.7",
+            "title": "Maintenance of Equipment",
+            "page": "139"
+        },
+        {
+            "structure": "26.8",
+            "title": "Innovative Basketball Gear",
+            "page": "139"
+        },
+        {
+            "structure": "26.9",
+            "title": "Choosing the Right Shoes",
+            "page": "140"
+        },
+        {
+            "structure": "26.10",
+            "title": "Safety Equipment",
+            "page": "140"
+        },
+        {
+            "structure": "27",
+            "title": "BASKETBALL COMMUNITY",
+            "page": null
+        },
+        {
+            "structure": "27.1",
+            "title": "Local Leagues and Clubs",
+            "page": "141"
+        },
+        {
+            "structure": "27.2",
+            "title": "Youth Development Programs",
+            "page": "141"
+        },
+        {
+            "structure": "27.3",
+            "title": "Volunteering Opportunities",
+            "page": "142"
+        },
+        {
+            "structure": "27.4",
+            "title": "Basketball Camps",
+            "page": "142"
+        },
+        {
+            "structure": "27.5",
+            "title": "Charity Events",
+            "page": "143"
+        },
+        {
+            "structure": "27.6",
+            "title": "Fan Engagement",
+            "page": "143"
+        },
+        {
+            "structure": "27.7",
+            "title": "Social Media Communities",
+            "page": "144"
+        },
+        {
+            "structure": "27.8",
+            "title": "Global Basketball Initiatives",
+            "page": "144"
+        },
+        {
+            "structure": "27.9",
+            "title": "Basketball and Education",
+            "page": "145"
+        },
+        {
+            "structure": "27.10",
+            "title": "Promoting Inclusivity in Basketball",
+            "page": "145"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "28",
+            "title": "BASKETBALL EVENTS",
+            "page": null
+        },
+        {
+            "structure": "28.1",
+            "title": "NBA All-Star Weekend",
+            "page": "146"
+        },
+        {
+            "structure": "28.2",
+            "title": "March Madness",
+            "page": "146"
+        },
+        {
+            "structure": "28.3",
+            "title": "FIBA World Cup",
+            "page": "147"
+        },
+        {
+            "structure": "28.4",
+            "title": "Olympic Basketball",
+            "page": "147"
+        },
+        {
+            "structure": "28.5",
+            "title": "WNBA Finals",
+            "page": "148"
+        },
+        {
+            "structure": "28.6",
+            "title": "High School Championships",
+            "page": "148"
+        },
+        {
+            "structure": "28.7",
+            "title": "College Basketball Tournaments",
+            "page": "149"
+        },
+        {
+            "structure": "28.8",
+            "title": "Streetball Competitions",
+            "page": "149"
+        },
+        {
+            "structure": "28.9",
+            "title": "Charity Basketball Games",
+            "page": "150"
+        },
+        {
+            "structure": "28.10",
+            "title": "International Basketball Events",
+            "page": "150"
+        },
+        {
+            "structure": "29",
+            "title": "BASKETBALL CAREERS",
+            "page": null
+        },
+        {
+            "structure": "29.1",
+            "title": "Becoming a Professional Player",
+            "page": "151"
+        },
+        {
+            "structure": "29.2",
+            "title": "Coaching Opportunities",
+            "page": "151"
+        },
+        {
+            "structure": "29.3",
+            "title": "Sports Management",
+            "page": "152"
+        },
+        {
+            "structure": "29.4",
+            "title": "Sports Journalism",
+            "page": "152"
+        },
+        {
+            "structure": "29.5",
+            "title": "Basketball Analytics",
+            "page": "153"
+        },
+        {
+            "structure": "29.6",
+            "title": "Refereeing as a Career",
+            "page": "153"
+        },
+        {
+            "structure": "29.7",
+            "title": "Strength and Conditioning Coach",
+            "page": "154"
+        },
+        {
+            "structure": "29.8",
+            "title": "Sports Psychology",
+            "page": "154"
+        },
+        {
+            "structure": "29.9",
+            "title": "Basketball Marketing",
+            "page": "155"
+        },
+        {
+            "structure": "29.10",
+            "title": "Entrepreneurship in Basketball",
+            "page": "155"
+        },
+        {
+            "structure": "30",
+            "title": "BASKETBALL RESOURCES",
+            "page": null
+        },
+        {
+            "structure": "30.1",
+            "title": "Books on Basketball",
+            "page": "156"
+        },
+        {
+            "structure": "30.2",
+            "title": "Documentaries and Films",
+            "page": "156"
+        },
+        {
+            "structure": "30.3",
+            "title": "Online Training Platforms",
+            "page": "157"
+        },
+        {
+            "structure": "30.4",
+            "title": "Podcasts for Basketball Enthusiasts",
+            "page": "157"
+        },
+        {
+            "structure": "30.5",
+            "title": "Websites and Blogs",
+            "page": "158"
+        },
+        {
+            "structure": "30.6",
+            "title": "Basketball Apps",
+            "page": "158"
+        },
+        {
+            "structure": "30.7",
+            "title": "Coaching Certifications",
+            "page": "159"
+        },
+        {
+            "structure": "30.8",
+            "title": "Basketball Camps and Clinics",
+            "page": "159"
+        },
+        {
+            "structure": "30.9",
+            "title": "Community Resources",
+            "page": "160"
+        },
+        {
+            "structure": "30.10",
+            "title": "Scholarships and Grants",
+            "page": "160"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "31",
+            "title": "BASKETBALL QUOTES & INSPIRATION",
+            "page": null
+        },
+        {
+            "structure": "31.1",
+            "title": "Quotes from Legendary Players",
+            "page": "161"
+        },
+        {
+            "structure": "31.2",
+            "title": "Motivational Quotes for Athletes",
+            "page": "161"
+        },
+        {
+            "structure": "31.3",
+            "title": "Teamwork and Leadership Quotes",
+            "page": "162"
+        },
+        {
+            "structure": "31.4",
+            "title": "Quotes on Overcoming Adversity",
+            "page": "162"
+        },
+        {
+            "structure": "31.5",
+            "title": "Inspirational Stories in Basketball",
+            "page": "163"
+        },
+        {
+            "structure": "31.6",
+            "title": "Quotes on Hard Work and Dedication",
+            "page": "163"
+        },
+        {
+            "structure": "31.7",
+            "title": "Quotes on Mental Toughness",
+            "page": "164"
+        },
+        {
+            "structure": "31.8",
+            "title": "Quotes on the Love of the Game",
+            "page": "164"
+        },
+        {
+            "structure": "31.9",
+            "title": "Quotes from Coaches",
+            "page": "165"
+        },
+        {
+            "structure": "31.10",
+            "title": "Quotes to Inspire Young Players",
+            "page": "165"
+        },
+        {
+            "structure": "32",
+            "title": "BASKETBALL TRIVIA & FUN FACTS",
+            "page": null
+        },
+        {
+            "structure": "32.1",
+            "title": "History of Basketball Trivia",
+            "page": "166"
+        },
+        {
+            "structure": "32.2",
+            "title": "NBA Records and Milestones",
+            "page": "166"
+        },
+        {
+            "structure": "32.3",
+            "title": "Famous Game Moments",
+            "page": "167"
+        },
+        {
+            "structure": "32.4",
+            "title": "Unusual Basketball Facts",
+            "page": "167"
+        },
+        {
+            "structure": "32.5",
+            "title": "Basketball Around the World",
+            "page": "168"
+        },
+        {
+            "structure": "32.6",
+            "title": "Trivia on Famous Players",
+            "page": "168"
+        },
+        {
+            "structure": "32.7",
+            "title": "Basketball Nicknames",
+            "page": "169"
+        },
+        {
+            "structure": "32.8",
+            "title": "Basketball Innovations",
+            "page": "169"
+        },
+        {
+            "structure": "32.9",
+            "title": "Basketball and Pop Culture",
+            "page": "170"
+        },
+        {
+            "structure": "32.10",
+            "title": "Fun Facts About the Game",
+            "page": "170"
+        },
+        {
+            "structure": "33",
+            "title": "BASKETBALL FOR ALL AGES",
+            "page": null
+        },
+        {
+            "structure": "33.1",
+            "title": "Basketball for Kids",
+            "page": "171"
+        },
+        {
+            "structure": "33.2",
+            "title": "Basketball for Teens",
+            "page": "171"
+        },
+        {
+            "structure": "33.3",
+            "title": "Basketball for Adults",
+            "page": "172"
+        },
+        {
+            "structure": "33.4",
+            "title": "Basketball for Seniors",
+            "page": "172"
+        },
+        {
+            "structure": "33.5",
+            "title": "Adaptive Basketball",
+            "page": "173"
+        },
+        {
+            "structure": "33.6",
+            "title": "Family Basketball Activities",
+            "page": "173"
+        },
+        {
+            "structure": "33.7",
+            "title": "Basketball for Beginners",
+            "page": "174"
+        },
+        {
+            "structure": "33.8",
+            "title": "Advanced Basketball Training",
+            "page": "174"
+        },
+        {
+            "structure": "33.9",
+            "title": "Basketball for Fitness",
+            "page": "175"
+        },
+        {
+            "structure": "33.10",
+            "title": "Inclusive Basketball Programs",
+            "page": "175"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "34",
+            "title": "BASKETBALL AND EDUCATION",
+            "page": null
+        },
+        {
+            "structure": "34.1",
+            "title": "Using Basketball to Teach Life Skills",
+            "page": "176"
+        },
+        {
+            "structure": "34.2",
+            "title": "Basketball in Physical Education",
+            "page": "176"
+        },
+        {
+            "structure": "34.3",
+            "title": "Scholarships for Basketball Players",
+            "page": "177"
+        },
+        {
+            "structure": "34.4",
+            "title": "Balancing Academics and Athletics",
+            "page": "177"
+        },
+        {
+            "structure": "34.5",
+            "title": "Basketball and Character Development",
+            "page": "178"
+        },
+        {
+            "structure": "34.6",
+            "title": "Basketball as a Tool for Social Change",
+            "page": "178"
+        },
+        {
+            "structure": "34.7",
+            "title": "Educational Basketball Programs",
+            "page": "179"
+        },
+        {
+            "structure": "34.8",
+            "title": "Basketball and STEM Education",
+            "page": "179"
+        },
+        {
+            "structure": "34.9",
+            "title": "Basketball and Leadership Training",
+            "page": "180"
+        },
+        {
+            "structure": "34.10",
+            "title": "Basketball and College Preparation",
+            "page": "180"
+        },
+        {
+            "structure": "35",
+            "title": "BASKETBALL AND HEALTH",
+            "page": null
+        },
+        {
+            "structure": "35.1",
+            "title": "Physical Benefits of Basketball",
+            "page": "181"
+        },
+        {
+            "structure": "35.2",
+            "title": "Mental Health Benefits",
+            "page": "181"
+        },
+        {
+            "structure": "35.3",
+            "title": "Preventing Basketball Injuries",
+            "page": "182"
+        },
+        {
+            "structure": "35.4",
+            "title": "Rehabilitation for Basketball Players",
+            "page": "182"
+        },
+        {
+            "structure": "35.5",
+            "title": "Basketball and Cardiovascular Health",
+            "page": "183"
+        },
+        {
+            "structure": "35.6",
+            "title": "Basketball and Weight Management",
+            "page": "183"
+        },
+        {
+            "structure": "35.7",
+            "title": "Basketball and Stress Relief",
+            "page": "184"
+        },
+        {
+            "structure": "35.8",
+            "title": "Basketball for Special Populations",
+            "page": "184"
+        },
+        {
+            "structure": "35.9",
+            "title": "Long-Term Health Benefits of Playing Basketball",
+            "page": "185"
+        },
+        {
+            "structure": "35.10",
+            "title": "Basketball and Healthy Lifestyles",
+            "page": "185"
+        },
+        {
+            "structure": "36",
+            "title": "BASKETBALL AND CULTURE",
+            "page": null
+        },
+        {
+            "structure": "36.1",
+            "title": "Basketball in Music and Movies",
+            "page": "186"
+        },
+        {
+            "structure": "36.2",
+            "title": "Basketball and Fashion",
+            "page": "186"
+        },
+        {
+            "structure": "36.3",
+            "title": "Basketball and Social Media",
+            "page": "187"
+        },
+        {
+            "structure": "36.4",
+            "title": "Basketball and Community Identity",
+            "page": "187"
+        },
+        {
+            "structure": "36.5",
+            "title": "Basketball and Globalization",
+            "page": "188"
+        },
+        {
+            "structure": "36.6",
+            "title": "Basketball and Social Justice",
+            "page": "188"
+        },
+        {
+            "structure": "36.7",
+            "title": "Basketball and Art",
+            "page": "189"
+        },
+        {
+            "structure": "36.8",
+            "title": "Basketball and Language",
+            "page": "189"
+        },
+        {
+            "structure": "36.9",
+            "title": "Basketball and Cultural Exchange",
+            "page": "190"
+        },
+        {
+            "structure": "36.10",
+            "title": "Basketball and National Pride",
+            "page": "190"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "37",
+            "title": "BASKETBALL AND TECHNOLOGY",
+            "page": null
+        },
+        {
+            "structure": "37.1",
+            "title": "Advancements in Basketball Equipment",
+            "page": "191"
+        },
+        {
+            "structure": "37.2",
+            "title": "Technology in Player Development",
+            "page": "191"
+        },
+        {
+            "structure": "37.3",
+            "title": "AI and Machine Learning in Basketball",
+            "page": "192"
+        },
+        {
+            "structure": "37.4",
+            "title": "The Role of Big Data in Basketball",
+            "page": "192"
+        },
+        {
+            "structure": "37.5",
+            "title": "Virtual Coaching Platforms",
+            "page": "193"
+        },
+        {
+            "structure": "37.6",
+            "title": "The Impact of Social Media Analytics",
+            "page": "193"
+        },
+        {
+            "structure": "37.7",
+            "title": "Wearable Tech for Injury Prevention",
+            "page": "194"
+        },
+        {
+            "structure": "37.8",
+            "title": "The Future of Smart Arenas",
+            "page": "194"
+        },
+        {
+            "structure": "37.9",
+            "title": "Blockchain in Basketball",
+            "page": "195"
+        },
+        {
+            "structure": "37.10",
+            "title": "Esports and Basketball",
+            "page": "195"
+        },
+        {
+            "structure": "38",
+            "title": "BASKETBALL AND BUSINESS",
+            "page": null
+        },
+        {
+            "structure": "38.1",
+            "title": "The Business of the NBA",
+            "page": "196"
+        },
+        {
+            "structure": "38.2",
+            "title": "Sponsorships and Endorsements",
+            "page": "196"
+        },
+        {
+            "structure": "38.3",
+            "title": "Basketball Franchises",
+            "page": "197"
+        },
+        {
+            "structure": "38.4",
+            "title": "Merchandising in Basketball",
+            "page": "197"
+        },
+        {
+            "structure": "38.5",
+            "title": "Broadcasting Rights and Revenue",
+            "page": "198"
+        },
+        {
+            "structure": "38.6",
+            "title": "The Economics of Basketball",
+            "page": "198"
+        },
+        {
+            "structure": "38.7",
+            "title": "Basketball and Entrepreneurship",
+            "page": "199"
+        },
+        {
+            "structure": "38.8",
+            "title": "The Role of Agents in Basketball",
+            "page": "199"
+        },
+        {
+            "structure": "38.9",
+            "title": "Basketball and Real Estate",
+            "page": "200"
+        },
+        {
+            "structure": "38.10",
+            "title": "The Global Basketball Market",
+            "page": "200"
+        },
+        {
+            "structure": "39",
+            "title": "BASKETBALL AND THE ENVIRONMENT",
+            "page": null
+        },
+        {
+            "structure": "39.1",
+            "title": "Sustainable Basketball Arenas",
+            "page": "201"
+        },
+        {
+            "structure": "39.2",
+            "title": "Eco-Friendly Basketball Gear",
+            "page": "201"
+        },
+        {
+            "structure": "39.3",
+            "title": "Reducing Carbon Footprints in Basketball",
+            "page": "202"
+        },
+        {
+            "structure": "39.4",
+            "title": "Recycling Programs in Basketball",
+            "page": "202"
+        },
+        {
+            "structure": "39.5",
+            "title": "Green Initiatives by Basketball Organizations",
+            "page": "203"
+        },
+        {
+            "structure": "39.6",
+            "title": "The Role of Fans in Sustainability",
+            "page": "203"
+        },
+        {
+            "structure": "39.7",
+            "title": "Basketball and Climate Change Awareness",
+            "page": "204"
+        },
+        {
+            "structure": "39.8",
+            "title": "Partnerships with Environmental Organizations",
+            "page": "204"
+        },
+        {
+            "structure": "39.9",
+            "title": "Sustainable Travel for Teams",
+            "page": "205"
+        },
+        {
+            "structure": "39.10",
+            "title": "Future of Sustainability in Basketball",
+            "page": "205"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "40",
+            "title": "BASKETBALL AND TECHNOLOGY INNOVATIONS",
+            "page": null
+        },
+        {
+            "structure": "40.1",
+            "title": "AI in Player Performance Analysis",
+            "page": "206"
+        },
+        {
+            "structure": "40.2",
+            "title": "Augmented Reality in Training",
+            "page": "206"
+        },
+        {
+            "structure": "40.3",
+            "title": "3D Printing for Basketball Equipment",
+            "page": "207"
+        },
+        {
+            "structure": "40.4",
+            "title": "Drone Technology in Basketball",
+            "page": "207"
+        },
+        {
+            "structure": "40.5",
+            "title": "Innovative Court Designs",
+            "page": "208"
+        },
+        {
+            "structure": "40.6",
+            "title": "Smart Wearables for Coaches",
+            "page": "208"
+        },
+        {
+            "structure": "40.7",
+            "title": "Interactive Fan Experiences",
+            "page": "209"
+        },
+        {
+            "structure": "40.8",
+            "title": "Robotics in Basketball Training",
+            "page": "209"
+        },
+        {
+            "structure": "40.9",
+            "title": "The Role of Quantum Computing in Analytics",
+            "page": "210"
+        },
+        {
+            "structure": "40.10",
+            "title": "Future Technologies Shaping Basketball",
+            "page": "210"
+        },
+        {
+            "structure": "41",
+            "title": "BASKETBALL AND SOCIAL IMPACT",
+            "page": null
+        },
+        {
+            "structure": "41.1",
+            "title": "Basketball as a Tool for Social Change",
+            "page": "211"
+        },
+        {
+            "structure": "41.2",
+            "title": "Community Outreach Programs",
+            "page": "211"
+        },
+        {
+            "structure": "41.3",
+            "title": "Basketball and Youth Empowerment",
+            "page": "212"
+        },
+        {
+            "structure": "41.4",
+            "title": "Basketball and Gender Equality",
+            "page": "212"
+        },
+        {
+            "structure": "41.5",
+            "title": "Basketball and Racial Equality",
+            "page": "213"
+        },
+        {
+            "structure": "41.6",
+            "title": "Basketball and Economic Development",
+            "page": "213"
+        },
+        {
+            "structure": "41.7",
+            "title": "Basketball and Education Access",
+            "page": "214"
+        },
+        {
+            "structure": "41.8",
+            "title": "Basketball and Mental Health Awareness",
+            "page": "214"
+        },
+        {
+            "structure": "41.9",
+            "title": "Basketball and Disability Inclusion",
+            "page": "215"
+        },
+        {
+            "structure": "41.10",
+            "title": "Global Basketball Initiatives for Peace",
+            "page": "215"
+        },
+        {
+            "structure": "42",
+            "title": "BASKETBALL AND INNOVATIVE TRAINING",
+            "page": null
+        },
+        {
+            "structure": "42.1",
+            "title": "Virtual Reality Training Programs",
+            "page": "216"
+        },
+        {
+            "structure": "42.2",
+            "title": "Biomechanics in Basketball Training",
+            "page": "216"
+        },
+        {
+            "structure": "42.3",
+            "title": "Data-Driven Training Plans",
+            "page": "217"
+        },
+        {
+            "structure": "42.4",
+            "title": "Personalized Player Development",
+            "page": "217"
+        },
+        {
+            "structure": "42.5",
+            "title": "Gamification in Basketball Training",
+            "page": "218"
+        },
+        {
+            "structure": "42.6",
+            "title": "Cognitive Training for Players",
+            "page": "218"
+        },
+        {
+            "structure": "42.7",
+            "title": "Advanced Shooting Mechanics",
+            "page": "219"
+        },
+        {
+            "structure": "42.8",
+            "title": "Strength and Conditioning Innovations",
+            "page": "219"
+        },
+        {
+            "structure": "42.9",
+            "title": "Recovery and Regeneration Techniques",
+            "page": "220"
+        },
+        {
+            "structure": "42.10",
+            "title": "Future Trends in Basketball Training",
+            "page": "220"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "43",
+            "title": "BASKETBALL AND LEADERSHIP",
+            "page": null
+        },
+        {
+            "structure": "43.1",
+            "title": "Leadership Lessons from Basketball",
+            "page": "221"
+        },
+        {
+            "structure": "43.2",
+            "title": "Developing Leadership Skills Through Basketball",
+            "page": "221"
+        },
+        {
+            "structure": "43.3",
+            "title": "Captains and Their Roles",
+            "page": "222"
+        },
+        {
+            "structure": "43.4",
+            "title": "Coaching as Leadership",
+            "page": "222"
+        },
+        {
+            "structure": "43.5",
+            "title": "Team Building Strategies",
+            "page": "223"
+        },
+        {
+            "structure": "43.6",
+            "title": "Conflict Resolution in Teams",
+            "page": "223"
+        },
+        {
+            "structure": "43.7",
+            "title": "Inspiring Others Through Basketball",
+            "page": "224"
+        },
+        {
+            "structure": "43.8",
+            "title": "Decision-Making Under Pressure",
+            "page": "224"
+        },
+        {
+            "structure": "43.9",
+            "title": "Leading by Example",
+            "page": "225"
+        },
+        {
+            "structure": "43.10",
+            "title": "Legacy of Great Basketball Leaders",
+            "page": "225"
+        },
+        {
+            "structure": "44",
+            "title": "BASKETBALL AND ENTREPRENEURSHIP",
+            "page": null
+        },
+        {
+            "structure": "44.1",
+            "title": "Starting a Basketball Academy",
+            "page": "226"
+        },
+        {
+            "structure": "44.2",
+            "title": "Building a Basketball Brand",
+            "page": "226"
+        },
+        {
+            "structure": "44.3",
+            "title": "Creating Basketball Products",
+            "page": "227"
+        },
+        {
+            "structure": "44.4",
+            "title": "Marketing Strategies for Basketball Businesses",
+            "page": "227"
+        },
+        {
+            "structure": "44.5",
+            "title": "Sponsorship Opportunities",
+            "page": "228"
+        },
+        {
+            "structure": "44.6",
+            "title": "Basketball Event Management",
+            "page": "228"
+        },
+        {
+            "structure": "44.7",
+            "title": "Social Media for Basketball Entrepreneurs",
+            "page": "229"
+        },
+        {
+            "structure": "44.8",
+            "title": "Funding a Basketball Startup",
+            "page": "229"
+        },
+        {
+            "structure": "44.9",
+            "title": "Networking in the Basketball Industry",
+            "page": "230"
+        },
+        {
+            "structure": "44.10",
+            "title": "Success Stories of Basketball Entrepreneurs",
+            "page": "230"
+        },
+        {
+            "structure": "45",
+            "title": "BASKETBALL AND INNOVATION",
+            "page": null
+        },
+        {
+            "structure": "45.1",
+            "title": "Innovative Coaching Techniques",
+            "page": "231"
+        },
+        {
+            "structure": "45.2",
+            "title": "Revolutionary Training Equipment",
+            "page": "231"
+        },
+        {
+            "structure": "45.3",
+            "title": "Advancements in Basketball Analytics",
+            "page": "232"
+        },
+        {
+            "structure": "45.4",
+            "title": "Innovative Game Strategies",
+            "page": "232"
+        },
+        {
+            "structure": "45.5",
+            "title": "Technology-Driven Fan Engagement",
+            "page": "233"
+        },
+        {
+            "structure": "45.6",
+            "title": "Sustainability Innovations in Basketball",
+            "page": "233"
+        },
+        {
+            "structure": "45.7",
+            "title": "Future of Basketball Innovation",
+            "page": "234"
+        },
+        {
+            "structure": "45.8",
+            "title": "Collaborations Between Tech and Basketball",
+            "page": "234"
+        },
+        {
+            "structure": "45.9",
+            "title": "Innovative Approaches to Player Health",
+            "page": "235"
+        },
+        {
+            "structure": "45.10",
+            "title": "The Role of Startups in Basketball Innovation",
+            "page": "235"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "46",
+            "title": "BASKETBALL AND GLOBALIZATION",
+            "page": null
+        },
+        {
+            "structure": "46.1",
+            "title": "The Global Reach of Basketball",
+            "page": "236"
+        },
+        {
+            "structure": "46.2",
+            "title": "Basketball in Emerging Markets",
+            "page": "236"
+        },
+        {
+            "structure": "46.3",
+            "title": "International Basketball Leagues",
+            "page": "237"
+        },
+        {
+            "structure": "46.4",
+            "title": "Cultural Exchange Through Basketball",
+            "page": "237"
+        },
+        {
+            "structure": "46.5",
+            "title": "Basketball Diplomacy",
+            "page": "238"
+        },
+        {
+            "structure": "46.6",
+            "title": "Global Basketball Events",
+            "page": "238"
+        },
+        {
+            "structure": "46.7",
+            "title": "The Role of FIBA in Global Basketball",
+            "page": "239"
+        },
+        {
+            "structure": "46.8",
+            "title": "Basketball and International Relations",
+            "page": "239"
+        },
+        {
+            "structure": "46.9",
+            "title": "Challenges of Globalizing Basketball",
+            "page": "240"
+        },
+        {
+            "structure": "46.10",
+            "title": "The Future of Basketball Globalization",
+            "page": "240"
+        },
+        {
+            "structure": "47",
+            "title": "BASKETBALL AND SOCIAL RESPONSIBILITY",
+            "page": null
+        },
+        {
+            "structure": "47.1",
+            "title": "Basketball and Philanthropy",
+            "page": "241"
+        },
+        {
+            "structure": "47.2",
+            "title": "Community Development Through Basketball",
+            "page": "241"
+        },
+        {
+            "structure": "47.3",
+            "title": "Basketball and Education Initiatives",
+            "page": "242"
+        },
+        {
+            "structure": "47.4",
+            "title": "Promoting Diversity in Basketball",
+            "page": "242"
+        },
+        {
+            "structure": "47.5",
+            "title": "Basketball and Environmental Awareness",
+            "page": "243"
+        },
+        {
+            "structure": "47.6",
+            "title": "Athletes as Social Advocates",
+            "page": "243"
+        },
+        {
+            "structure": "47.7",
+            "title": "Basketball and Mental Health Advocacy",
+            "page": "244"
+        },
+        {
+            "structure": "47.8",
+            "title": "Basketball and Anti-Bullying Campaigns",
+            "page": "244"
+        },
+        {
+            "structure": "47.9",
+            "title": "Basketball and Gender Equality Programs",
+            "page": "245"
+        },
+        {
+            "structure": "47.10",
+            "title": "The Role of Organizations in Social Responsibility",
+            "page": "245"
+        },
+        {
+            "structure": "48",
+            "title": "BASKETBALL AND THE FUTURE",
+            "page": null
+        },
+        {
+            "structure": "48.1",
+            "title": "The Evolution of Basketball Rules",
+            "page": "246"
+        },
+        {
+            "structure": "48.2",
+            "title": "Technological Advancements in Basketball",
+            "page": "246"
+        },
+        {
+            "structure": "48.3",
+            "title": "The Future of Player Development",
+            "page": "247"
+        },
+        {
+            "structure": "48.4",
+            "title": "Basketball and Artificial Intelligence",
+            "page": "247"
+        },
+        {
+            "structure": "48.5",
+            "title": "The Role of Fans in Shaping Basketball",
+            "page": "248"
+        },
+        {
+            "structure": "48.6",
+            "title": "Sustainability in Basketball's Future",
+            "page": "248"
+        },
+        {
+            "structure": "48.7",
+            "title": "The Globalization of Basketball",
+            "page": "249"
+        },
+        {
+            "structure": "48.8",
+            "title": "Basketball and Virtual Reality",
+            "page": "249"
+        },
+        {
+            "structure": "48.9",
+            "title": "The Future of Basketball Analytics",
+            "page": "250"
+        },
+        {
+            "structure": "48.10",
+            "title": "Imagining Basketball in 2050",
+            "page": "250"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "49",
+            "title": "BASKETBALL AND ART",
+            "page": null
+        },
+        {
+            "structure": "49.1",
+            "title": "Basketball in Visual Arts",
+            "page": "251"
+        },
+        {
+            "structure": "49.2",
+            "title": "Basketball in Literature",
+            "page": "251"
+        },
+        {
+            "structure": "49.3",
+            "title": "Basketball in Music",
+            "page": "252"
+        },
+        {
+            "structure": "49.4",
+            "title": "Basketball in Film and Television",
+            "page": "252"
+        },
+        {
+            "structure": "49.5",
+            "title": "Basketball and Street Art",
+            "page": "253"
+        },
+        {
+            "structure": "49.6",
+            "title": "Basketball and Photography",
+            "page": "253"
+        },
+        {
+            "structure": "49.7",
+            "title": "Basketball and Fashion Design",
+            "page": "254"
+        },
+        {
+            "structure": "49.8",
+            "title": "Basketball and Performance Art",
+            "page": "254"
+        },
+        {
+            "structure": "49.9",
+            "title": "Basketball as a Cultural Symbol",
+            "page": "255"
+        },
+        {
+            "structure": "49.10",
+            "title": "The Intersection of Art and Basketball",
+            "page": "255"
+        },
+        {
+            "structure": "50",
+            "title": "BASKETBALL AND TECHNOLOGY IN THE FUTURE",
+            "page": null
+        },
+        {
+            "structure": "50.1",
+            "title": "AI Referees in Basketball",
+            "page": "256"
+        },
+        {
+            "structure": "50.2",
+            "title": "Holographic Training Sessions",
+            "page": "256"
+        },
+        {
+            "structure": "50.3",
+            "title": "Advanced Wearable Sensors",
+            "page": "257"
+        },
+        {
+            "structure": "50.4",
+            "title": "Immersive Fan Experiences",
+            "page": "257"
+        },
+        {
+            "structure": "50.5",
+            "title": "The Role of Robotics in Basketball",
+            "page": "258"
+        },
+        {
+            "structure": "50.6",
+            "title": "Smart Arenas of the Future",
+            "page": "258"
+        },
+        {
+            "structure": "50.7",
+            "title": "Blockchain for Player Contracts",
+            "page": "259"
+        },
+        {
+            "structure": "50.8",
+            "title": "Quantum Computing in Game Strategy",
+            "page": "259"
+        },
+        {
+            "structure": "50.9",
+            "title": "The Future of Virtual Basketball Leagues",
+            "page": "260"
+        },
+        {
+            "structure": "50.10",
+            "title": "Speculating on Basketball in 2100",
+            "page": "260"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "51",
+            "title": "BASKETBALL AND PHILOSOPHY",
+            "page": null
+        },
+        {
+            "structure": "51.1",
+            "title": "The Philosophy of Teamwork",
+            "page": "261"
+        },
+        {
+            "structure": "51.2",
+            "title": "Basketball and Ethical Decision-Making",
+            "page": "261"
+        },
+        {
+            "structure": "51.3",
+            "title": "The Role of Competition in Personal Growth",
+            "page": "262"
+        },
+        {
+            "structure": "51.4",
+            "title": "Basketball and the Pursuit of Excellence",
+            "page": "262"
+        },
+        {
+            "structure": "51.5",
+            "title": "The Balance Between Individuality and Teamwork",
+            "page": "263"
+        },
+        {
+            "structure": "51.6",
+            "title": "The Concept of Fair Play in Basketball",
+            "page": "263"
+        },
+        {
+            "structure": "51.7",
+            "title": "Basketball as a Metaphor for Life",
+            "page": "264"
+        },
+        {
+            "structure": "51.8",
+            "title": "The Philosophy of Leadership in Basketball",
+            "page": "264"
+        },
+        {
+            "structure": "51.9",
+            "title": "The Aesthetics of Basketball",
+            "page": "265"
+        },
+        {
+            "structure": "51.10",
+            "title": "Basketball and the Human Spirit",
+            "page": "265"
+        },
+        {
+            "structure": "52",
+            "title": "BASKETBALL AND PSYCHOLOGY",
+            "page": null
+        },
+        {
+            "structure": "52.1",
+            "title": "The Psychology of Winning",
+            "page": "266"
+        },
+        {
+            "structure": "52.2",
+            "title": "Mental Toughness in Basketball",
+            "page": "266"
+        },
+        {
+            "structure": "52.3",
+            "title": "The Role of Confidence in Performance",
+            "page": "267"
+        },
+        {
+            "structure": "52.4",
+            "title": "Overcoming Performance Anxiety",
+            "page": "267"
+        },
+        {
+            "structure": "52.5",
+            "title": "The Psychology of Team Dynamics",
+            "page": "268"
+        },
+        {
+            "structure": "52.6",
+            "title": "The Impact of Coaching on Player Psychology",
+            "page": "268"
+        },
+        {
+            "structure": "52.7",
+            "title": "The Role of Visualization in Basketball",
+            "page": "269"
+        },
+        {
+            "structure": "52.8",
+            "title": "The Psychology of Clutch Performance",
+            "page": "269"
+        },
+        {
+            "structure": "52.9",
+            "title": "The Effects of Pressure on Decision-Making",
+            "page": "270"
+        },
+        {
+            "structure": "52.10",
+            "title": "The Role of Emotional Intelligence in Basketball",
+            "page": "270"
+        },
+        {
+            "structure": "53",
+            "title": "BASKETBALL AND INNOVATIVE LEARNING",
+            "page": null
+        },
+        {
+            "structure": "53.1",
+            "title": "Learning Through Play",
+            "page": "271"
+        },
+        {
+            "structure": "53.2",
+            "title": "Basketball as an Educational Tool",
+            "page": "271"
+        },
+        {
+            "structure": "53.3",
+            "title": "The Role of Feedback in Skill Development",
+            "page": "272"
+        },
+        {
+            "structure": "53.4",
+            "title": "Peer Learning in Basketball",
+            "page": "272"
+        },
+        {
+            "structure": "53.5",
+            "title": "The Science of Skill Acquisition",
+            "page": "273"
+        },
+        {
+            "structure": "53.6",
+            "title": "The Role of Mistakes in Learning",
+            "page": "273"
+        },
+        {
+            "structure": "53.7",
+            "title": "Basketball and Experiential Learning",
+            "page": "274"
+        },
+        {
+            "structure": "53.8",
+            "title": "The Impact of Technology on Learning Basketball",
+            "page": "274"
+        },
+        {
+            "structure": "53.9",
+            "title": "The Role of Curiosity in Player Development",
+            "page": "275"
+        },
+        {
+            "structure": "53.10",
+            "title": "Innovative Teaching Methods in Basketball",
+            "page": "275"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "54",
+            "title": "BASKETBALL AND TEAMWORK",
+            "page": null
+        },
+        {
+            "structure": "54.1",
+            "title": "The Importance of Teamwork in Basketball",
+            "page": "276"
+        },
+        {
+            "structure": "54.2",
+            "title": "Building Trust Among Teammates",
+            "page": "276"
+        },
+        {
+            "structure": "54.3",
+            "title": "Effective Communication on the Court",
+            "page": "277"
+        },
+        {
+            "structure": "54.4",
+            "title": "Roles and Responsibilities in a Team",
+            "page": "277"
+        },
+        {
+            "structure": "54.5",
+            "title": "The Role of the Coach in Teamwork",
+            "page": "278"
+        },
+        {
+            "structure": "54.6",
+            "title": "Conflict Resolution in Teams",
+            "page": "278"
+        },
+        {
+            "structure": "54.7",
+            "title": "Teamwork Drills and Exercises",
+            "page": "279"
+        },
+        {
+            "structure": "54.8",
+            "title": "The Psychology of Team Success",
+            "page": "279"
+        },
+        {
+            "structure": "54.9",
+            "title": "Teamwork in High-Pressure Situations",
+            "page": "280"
+        },
+        {
+            "structure": "54.10",
+            "title": "Celebrating Team Achievements",
+            "page": "280"
+        },
+        {
+            "structure": "55",
+            "title": "BASKETBALL AND LEADERSHIP DEVELOPMENT",
+            "page": null
+        },
+        {
+            "structure": "55.1",
+            "title": "Leadership Styles in Basketball",
+            "page": "281"
+        },
+        {
+            "structure": "55.2",
+            "title": "Developing Leadership Skills in Players",
+            "page": "281"
+        },
+        {
+            "structure": "55.3",
+            "title": "The Role of Captains in Leadership",
+            "page": "282"
+        },
+        {
+            "structure": "55.4",
+            "title": "Coaching as a Leadership Role",
+            "page": "282"
+        },
+        {
+            "structure": "55.5",
+            "title": "Mentorship in Basketball",
+            "page": "283"
+        },
+        {
+            "structure": "55.6",
+            "title": "Leadership Challenges in Basketball",
+            "page": "283"
+        },
+        {
+            "structure": "55.7",
+            "title": "Inspiring Others Through Leadership",
+            "page": "284"
+        },
+        {
+            "structure": "55.8",
+            "title": "Decision-Making as a Leader",
+            "page": "284"
+        },
+        {
+            "structure": "55.9",
+            "title": "The Legacy of Great Basketball Leaders",
+            "page": "285"
+        },
+        {
+            "structure": "55.10",
+            "title": "Leadership Beyond the Court",
+            "page": "285"
+        },
+        {
+            "structure": "56",
+            "title": "BASKETBALL AND COMMUNITY IMPACT",
+            "page": null
+        },
+        {
+            "structure": "56.1",
+            "title": "Basketball as a Community Builder",
+            "page": "286"
+        },
+        {
+            "structure": "56.2",
+            "title": "Youth Programs and Basketball",
+            "page": "286"
+        },
+        {
+            "structure": "56.3",
+            "title": "Basketball and Social Inclusion",
+            "page": "287"
+        },
+        {
+            "structure": "56.4",
+            "title": "Charity Events Through Basketball",
+            "page": "287"
+        },
+        {
+            "structure": "56.5",
+            "title": "Basketball and Education Initiatives",
+            "page": "288"
+        },
+        {
+            "structure": "56.6",
+            "title": "Basketball and Mental Health Awareness",
+            "page": "288"
+        },
+        {
+            "structure": "56.7",
+            "title": "Basketball and Gender Equality",
+            "page": "289"
+        },
+        {
+            "structure": "56.8",
+            "title": "Basketball and Disability Inclusion",
+            "page": "289"
+        },
+        {
+            "structure": "56.9",
+            "title": "Basketball and Economic Development",
+            "page": "290"
+        },
+        {
+            "structure": "56.10",
+            "title": "The Future of Basketball in Communities",
+            "page": "290"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "57",
+            "title": "BASKETBALL AND INNOVATIVE STRATEGIES",
+            "page": null
+        },
+        {
+            "structure": "57.1",
+            "title": "Revolutionizing Offensive Plays",
+            "page": "291"
+        },
+        {
+            "structure": "57.2",
+            "title": "Defensive Tactics for Modern Basketball",
+            "page": "291"
+        },
+        {
+            "structure": "57.3",
+            "title": "Adapting to Opponent Strategies",
+            "page": "292"
+        },
+        {
+            "structure": "57.4",
+            "title": "Hybrid Defensive Systems",
+            "page": "292"
+        },
+        {
+            "structure": "57.5",
+            "title": "Positionless Basketball",
+            "page": "293"
+        },
+        {
+            "structure": "57.6",
+            "title": "Maximizing Player Versatility",
+            "page": "293"
+        },
+        {
+            "structure": "57.7",
+            "title": "Innovative Set Plays",
+            "page": "294"
+        },
+        {
+            "structure": "57.8",
+            "title": "Using Analytics to Shape Strategy",
+            "page": "294"
+        },
+        {
+            "structure": "57.9",
+            "title": "Game-Time Adjustments",
+            "page": "295"
+        },
+        {
+            "structure": "57.10",
+            "title": "Future Trends in Basketball Strategy",
+            "page": "295"
+        },
+        {
+            "structure": "58",
+            "title": "BASKETBALL AND GLOBAL IMPACT",
+            "page": null
+        },
+        {
+            "structure": "58.1",
+            "title": "Basketball as a Global Sport",
+            "page": "296"
+        },
+        {
+            "structure": "58.2",
+            "title": "The Role of Basketball in Diplomacy",
+            "page": "296"
+        },
+        {
+            "structure": "58.3",
+            "title": "Basketball and Cultural Exchange",
+            "page": "297"
+        },
+        {
+            "structure": "58.4",
+            "title": "Basketball's Influence on Global Youth",
+            "page": "297"
+        },
+        {
+            "structure": "58.5",
+            "title": "The Expansion of International Leagues",
+            "page": "298"
+        },
+        {
+            "structure": "58.6",
+            "title": "Basketball and Global Media",
+            "page": "298"
+        },
+        {
+            "structure": "58.7",
+            "title": "The Role of FIBA in Global Basketball",
+            "page": "299"
+        },
+        {
+            "structure": "58.8",
+            "title": "Basketball and Global Economic Impact",
+            "page": "299"
+        },
+        {
+            "structure": "58.9",
+            "title": "Challenges in Globalizing Basketball",
+            "page": "300"
+        },
+        {
+            "structure": "58.10",
+            "title": "The Future of Basketball's Global Reach",
+            "page": "300"
+        },
+        {
+            "structure": "59",
+            "title": "BASKETBALL AND THE HUMAN EXPERIENCE",
+            "page": null
+        },
+        {
+            "structure": "59.1",
+            "title": "Basketball as a Reflection of Society",
+            "page": "301"
+        },
+        {
+            "structure": "59.2",
+            "title": "The Emotional Connection to Basketball",
+            "page": "301"
+        },
+        {
+            "structure": "59.3",
+            "title": "Basketball and Personal Identity",
+            "page": "302"
+        },
+        {
+            "structure": "59.4",
+            "title": "The Role of Basketball in Shaping Lives",
+            "page": "302"
+        },
+        {
+            "structure": "59.5",
+            "title": "Basketball and the Pursuit of Dreams",
+            "page": "303"
+        },
+        {
+            "structure": "59.6",
+            "title": "The Impact of Basketball on Communities",
+            "page": "303"
+        },
+        {
+            "structure": "59.7",
+            "title": "Basketball and Overcoming Adversity",
+            "page": "304"
+        },
+        {
+            "structure": "59.8",
+            "title": "The Universal Language of Basketball",
+            "page": "304"
+        },
+        {
+            "structure": "59.9",
+            "title": "Basketball and the Power of Unity",
+            "page": "305"
+        },
+        {
+            "structure": "59.10",
+            "title": "The Legacy of Basketball in Human History",
+            "page": "305"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "60",
+            "title": "BASKETBALL AND INNOVATIVE FUTURES",
+            "page": null
+        },
+        {
+            "structure": "60.1",
+            "title": "The Role of AI in Basketball Coaching",
+            "page": "306"
+        },
+        {
+            "structure": "60.2",
+            "title": "Predictive Analytics in Player Performance",
+            "page": "306"
+        },
+        {
+            "structure": "60.3",
+            "title": "The Integration of AR and VR in Training",
+            "page": "307"
+        },
+        {
+            "structure": "60.4",
+            "title": "The Future of Fan Engagement Technologies",
+            "page": "307"
+        },
+        {
+            "structure": "60.5",
+            "title": "Sustainability and Basketball Innovation",
+            "page": "308"
+        },
+        {
+            "structure": "60.6",
+            "title": "The Evolution of Basketball Equipment",
+            "page": "308"
+        },
+        {
+            "structure": "60.7",
+            "title": "The Role of Robotics in Player Development",
+            "page": "309"
+        },
+        {
+            "structure": "60.8",
+            "title": "Blockchain and the Future of Contracts",
+            "page": "309"
+        },
+        {
+            "structure": "60.9",
+            "title": "The Impact of Quantum Computing on Strategy",
+            "page": "310"
+        },
+        {
+            "structure": "60.10",
+            "title": "Imagining Basketball in the Next Century",
+            "page": "310"
+        },
+        {
+            "structure": "61",
+            "title": "BASKETBALL AND LEGACY",
+            "page": null
+        },
+        {
+            "structure": "61.1",
+            "title": "The Greatest Players of All Time",
+            "page": "311"
+        },
+        {
+            "structure": "61.2",
+            "title": "The Evolution of Coaching Legends",
+            "page": "311"
+        },
+        {
+            "structure": "61.3",
+            "title": "Historic Games That Changed Basketball",
+            "page": "312"
+        },
+        {
+            "structure": "61.4",
+            "title": "The Impact of Iconic Teams",
+            "page": "312"
+        },
+        {
+            "structure": "61.5",
+            "title": "Basketball's Role in Cultural Movements",
+            "page": "313"
+        },
+        {
+            "structure": "61.6",
+            "title": "The Legacy of Basketball in Education",
+            "page": "313"
+        },
+        {
+            "structure": "61.7",
+            "title": "Basketball's Influence on Global Sports",
+            "page": "314"
+        },
+        {
+            "structure": "61.8",
+            "title": "The Role of Media in Shaping Basketball History",
+            "page": "314"
+        },
+        {
+            "structure": "61.9",
+            "title": "The Hall of Fame and Its Significance",
+            "page": "315"
+        },
+        {
+            "structure": "61.10",
+            "title": "Preserving the Legacy of Basketball",
+            "page": "315"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "62",
+            "title": "BASKETBALL AND INNOVATIVE COACHING",
+            "page": null
+        },
+        {
+            "structure": "62.1",
+            "title": "The Science of Coaching",
+            "page": "316"
+        },
+        {
+            "structure": "62.2",
+            "title": "Data-Driven Coaching Decisions",
+            "page": "316"
+        },
+        {
+            "structure": "62.3",
+            "title": "Personalized Coaching Techniques",
+            "page": "317"
+        },
+        {
+            "structure": "62.4",
+            "title": "The Role of Technology in Coaching",
+            "page": "317"
+        },
+        {
+            "structure": "62.5",
+            "title": "Building Resilient Teams",
+            "page": "318"
+        },
+        {
+            "structure": "62.6",
+            "title": "Innovative Practice Drills",
+            "page": "318"
+        },
+        {
+            "structure": "62.7",
+            "title": "Coaching Under Pressure",
+            "page": "319"
+        },
+        {
+            "structure": "62.8",
+            "title": "The Psychology of Coaching",
+            "page": "319"
+        },
+        {
+            "structure": "62.9",
+            "title": "Developing Future Coaches",
+            "page": "320"
+        },
+        {
+            "structure": "62.10",
+            "title": "The Future of Coaching in Basketball",
+            "page": "320"
+        },
+        {
+            "structure": "63",
+            "title": "BASKETBALL AND THE DIGITAL AGE",
+            "page": null
+        },
+        {
+            "structure": "63.1",
+            "title": "The Rise of Digital Scouting",
+            "page": "321"
+        },
+        {
+            "structure": "63.2",
+            "title": "Social Media's Impact on Players",
+            "page": "321"
+        },
+        {
+            "structure": "63.3",
+            "title": "Digital Platforms for Player Development",
+            "page": "322"
+        },
+        {
+            "structure": "63.4",
+            "title": "The Role of Streaming in Basketball",
+            "page": "322"
+        },
+        {
+            "structure": "63.5",
+            "title": "E-Sports and Virtual Basketball",
+            "page": "323"
+        },
+        {
+            "structure": "63.6",
+            "title": "The Digital Fan Experience",
+            "page": "323"
+        },
+        {
+            "structure": "63.7",
+            "title": "Online Coaching Communities",
+            "page": "324"
+        },
+        {
+            "structure": "63.8",
+            "title": "The Role of AI in Digital Basketball",
+            "page": "324"
+        },
+        {
+            "structure": "63.9",
+            "title": "Digital Marketing for Basketball Teams",
+            "page": "325"
+        },
+        {
+            "structure": "63.10",
+            "title": "The Future of Basketball in the Digital Age",
+            "page": "325"
+        },
+        {
+            "structure": "64",
+            "title": "BASKETBALL AND INNOVATIVE FITNESS",
+            "page": null
+        },
+        {
+            "structure": "64.1",
+            "title": "Functional Fitness for Basketball",
+            "page": "326"
+        },
+        {
+            "structure": "64.2",
+            "title": "High-Intensity Interval Training (HIIT)",
+            "page": "326"
+        },
+        {
+            "structure": "64.3",
+            "title": "Strength Training for Explosiveness",
+            "page": "327"
+        },
+        {
+            "structure": "64.4",
+            "title": "Mobility and Flexibility Training",
+            "page": "327"
+        },
+        {
+            "structure": "64.5",
+            "title": "Recovery Workouts for Basketball Players",
+            "page": "328"
+        },
+        {
+            "structure": "64.6",
+            "title": "The Role of Nutrition in Fitness",
+            "page": "328"
+        },
+        {
+            "structure": "64.7",
+            "title": "Mental Fitness for Peak Performance",
+            "page": "329"
+        },
+        {
+            "structure": "64.8",
+            "title": "Wearable Tech for Fitness Tracking",
+            "page": "329"
+        },
+        {
+            "structure": "64.9",
+            "title": "Innovative Fitness Equipment",
+            "page": "330"
+        },
+        {
+            "structure": "64.10",
+            "title": "The Future of Fitness in Basketball",
+            "page": "330"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "65",
+            "title": "BASKETBALL AND INNOVATIVE RECOVERY",
+            "page": null
+        },
+        {
+            "structure": "65.1",
+            "title": "The Science of Recovery in Basketball",
+            "page": "331"
+        },
+        {
+            "structure": "65.2",
+            "title": "Cryotherapy for Recovery",
+            "page": "331"
+        },
+        {
+            "structure": "65.3",
+            "title": "Compression Therapy",
+            "page": "332"
+        },
+        {
+            "structure": "65.4",
+            "title": "Massage Therapy for Athletes",
+            "page": "332"
+        },
+        {
+            "structure": "65.5",
+            "title": "Sleep and Recovery",
+            "page": "333"
+        },
+        {
+            "structure": "65.6",
+            "title": "Hydration and Recovery",
+            "page": "333"
+        },
+        {
+            "structure": "65.7",
+            "title": "Active Recovery Techniques",
+            "page": "334"
+        },
+        {
+            "structure": "65.8",
+            "title": "Recovery Nutrition",
+            "page": "334"
+        },
+        {
+            "structure": "65.9",
+            "title": "Mental Recovery for Basketball Players",
+            "page": "335"
+        },
+        {
+            "structure": "65.10",
+            "title": "Future Innovations in Recovery",
+            "page": "335"
+        },
+        {
+            "structure": "66",
+            "title": "BASKETBALL AND INNOVATIVE ANALYTICS",
+            "page": null
+        },
+        {
+            "structure": "66.1",
+            "title": "The Role of Big Data in Basketball",
+            "page": "336"
+        },
+        {
+            "structure": "66.2",
+            "title": "Player Performance Metrics",
+            "page": "336"
+        },
+        {
+            "structure": "66.3",
+            "title": "Team Analytics for Strategy",
+            "page": "337"
+        },
+        {
+            "structure": "66.4",
+            "title": "Shot Selection Analytics",
+            "page": "337"
+        },
+        {
+            "structure": "66.5",
+            "title": "Defensive Analytics",
+            "page": "338"
+        },
+        {
+            "structure": "66.6",
+            "title": "Injury Prediction Through Analytics",
+            "page": "338"
+        },
+        {
+            "structure": "66.7",
+            "title": "Fan Engagement Analytics",
+            "page": "339"
+        },
+        {
+            "structure": "66.8",
+            "title": "Real-Time Game Analytics",
+            "page": "339"
+        },
+        {
+            "structure": "66.9",
+            "title": "The Role of AI in Basketball Analytics",
+            "page": "340"
+        },
+        {
+            "structure": "66.10",
+            "title": "The Future of Analytics in Basketball",
+            "page": "340"
+        },
+        {
+            "structure": "67",
+            "title": "BASKETBALL AND INNOVATIVE LEADERSHIP",
+            "page": null
+        },
+        {
+            "structure": "67.1",
+            "title": "Leadership in Modern Basketball",
+            "page": "341"
+        },
+        {
+            "structure": "67.2",
+            "title": "Empowering Players as Leaders",
+            "page": "341"
+        },
+        {
+            "structure": "67.3",
+            "title": "Leadership Styles in Coaching",
+            "page": "342"
+        },
+        {
+            "structure": "67.4",
+            "title": "The Role of Mentorship in Leadership",
+            "page": "342"
+        },
+        {
+            "structure": "67.5",
+            "title": "Leadership in High-Stakes Games",
+            "page": "343"
+        },
+        {
+            "structure": "67.6",
+            "title": "Building a Leadership Culture",
+            "page": "343"
+        },
+        {
+            "structure": "67.7",
+            "title": "Leadership Challenges in Basketball",
+            "page": "344"
+        },
+        {
+            "structure": "67.8",
+            "title": "The Legacy of Great Basketball Leaders",
+            "page": "344"
+        },
+        {
+            "structure": "67.9",
+            "title": "Leadership Beyond the Court",
+            "page": "345"
+        },
+        {
+            "structure": "67.10",
+            "title": "The Future of Leadership in Basketball",
+            "page": "345"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "68",
+            "title": "BASKETBALL AND INNOVATIVE STRATEGY DEVELOPMENT",
+            "page": null
+        },
+        {
+            "structure": "68.1",
+            "title": "Revolutionizing Offensive Systems",
+            "page": "346"
+        },
+        {
+            "structure": "68.2",
+            "title": "Defensive Innovations for Modern Basketball",
+            "page": "346"
+        },
+        {
+            "structure": "68.3",
+            "title": "Adapting Strategies to Opponent Trends",
+            "page": "347"
+        },
+        {
+            "structure": "68.4",
+            "title": "Positionless Basketball Tactics",
+            "page": "347"
+        },
+        {
+            "structure": "68.5",
+            "title": "Maximizing Player Roles in Strategy",
+            "page": "348"
+        },
+        {
+            "structure": "68.6",
+            "title": "Analytics-Driven Game Plans",
+            "page": "348"
+        },
+        {
+            "structure": "68.7",
+            "title": "Innovative Set Play Designs",
+            "page": "349"
+        },
+        {
+            "structure": "68.8",
+            "title": "Real-Time Adjustments During Games",
+            "page": "349"
+        },
+        {
+            "structure": "68.9",
+            "title": "Hybrid Systems for Versatile Teams",
+            "page": "350"
+        },
+        {
+            "structure": "68.10",
+            "title": "Future Trends in Basketball Strategy Development",
+            "page": "350"
+        },
+        {
+            "structure": "69",
+            "title": "BASKETBALL AND INNOVATIVE PLAYER DEVELOPMENT",
+            "page": null
+        },
+        {
+            "structure": "69.1",
+            "title": "Personalized Training Programs",
+            "page": "351"
+        },
+        {
+            "structure": "69.2",
+            "title": "Biomechanics in Player Development",
+            "page": "351"
+        },
+        {
+            "structure": "69.3",
+            "title": "Cognitive Training for Decision-Making",
+            "page": "352"
+        },
+        {
+            "structure": "69.4",
+            "title": "Advanced Shooting Techniques",
+            "page": "352"
+        },
+        {
+            "structure": "69.5",
+            "title": "Strength and Conditioning for Longevity",
+            "page": "353"
+        },
+        {
+            "structure": "69.6",
+            "title": "Mental Resilience Training",
+            "page": "353"
+        },
+        {
+            "structure": "69.7",
+            "title": "Recovery Protocols for Peak Performance",
+            "page": "354"
+        },
+        {
+            "structure": "69.8",
+            "title": "Using Technology to Enhance Skills",
+            "page": "354"
+        },
+        {
+            "structure": "69.9",
+            "title": "Developing Leadership in Players",
+            "page": "355"
+        },
+        {
+            "structure": "69.10",
+            "title": "The Future of Player Development",
+            "page": "355"
+        },
+        {
+            "structure": "70",
+            "title": "BASKETBALL AND INNOVATIVE FAN ENGAGEMENT",
+            "page": null
+        },
+        {
+            "structure": "70.1",
+            "title": "Creating Immersive Fan Experiences",
+            "page": "356"
+        },
+        {
+            "structure": "70.2",
+            "title": "The Role of Social Media in Fan Interaction",
+            "page": "356"
+        },
+        {
+            "structure": "70.3",
+            "title": "Augmented Reality for Fans",
+            "page": "357"
+        },
+        {
+            "structure": "70.4",
+            "title": "Virtual Reality Game Experiences",
+            "page": "357"
+        },
+        {
+            "structure": "70.5",
+            "title": "Fan Analytics and Personalization",
+            "page": "358"
+        },
+        {
+            "structure": "70.6",
+            "title": "Interactive Game Day Apps",
+            "page": "358"
+        },
+        {
+            "structure": "70.7",
+            "title": "Esports and Basketball Crossovers",
+            "page": "359"
+        },
+        {
+            "structure": "70.8",
+            "title": "Global Fan Engagement Strategies",
+            "page": "359"
+        },
+        {
+            "structure": "70.9",
+            "title": "The Role of NFTs in Fan Engagement",
+            "page": "360"
+        },
+        {
+            "structure": "70.10",
+            "title": "The Future of Fan Engagement in Basketball",
+            "page": "360"
+        }
+    ]
+}{
+    "table_of_contents": [
+        {
+            "structure": "71",
+            "title": "BASKETBALL AND INNOVATIVE MEDIA",
+            "page": null
+        },
+        {
+            "structure": "71.1",
+            "title": "The Evolution of Basketball Broadcasting",
+            "page": "361"
+        },
+        {
+            "structure": "71.2",
+            "title": "The Role of Streaming Platforms",
+            "page": "361"
+        },
+        {
+            "structure": "71.3",
+            "title": "Social Media's Impact on Basketball Coverage",
+            "page": "362"
+        },
+        {
+            "structure": "71.4",
+            "title": "The Rise of Basketball Podcasts",
+            "page": "362"
+        },
+        {
+            "structure": "71.5",
+            "title": "Documentaries and Storytelling in Basketball",
+            "page": "363"
+        },
+        {
+            "structure": "71.6",
+            "title": "The Role of Influencers in Basketball Media",
+            "page": "363"
+        },
+        {
+            "structure": "71.7",
+            "title": "Interactive Media Experiences for Fans",
+            "page": "364"
+        },
+        {
+            "structure": "71.8",
+            "title": "The Future of Basketball Journalism",
+            "page": "364"
+        },
+        {
+            "structure": "71.9",
+            "title": "AI-Generated Basketball Content",
+            "page": "365"
+        },
+        {
+            "structure": "71.10",
+            "title": "The Future of Media in Basketball",
+            "page": "365"
+        },
+        {
+            "structure": "72",
+            "title": "BASKETBALL AND INNOVATIVE COMMUNITY BUILDING",
+            "page": null
+        },
+        {
+            "structure": "72.1",
+            "title": "Basketball as a Tool for Social Unity",
+            "page": "366"
+        },
+        {
+            "structure": "72.2",
+            "title": "Grassroots Basketball Programs",
+            "page": "366"
+        },
+        {
+            "structure": "72.3",
+            "title": "Basketball and Local Economic Growth",
+            "page": "367"
+        },
+        {
+            "structure": "72.4",
+            "title": "Basketball and Cultural Preservation",
+            "page": "367"
+        },
+        {
+            "structure": "72.5",
+            "title": "Community Courts and Their Impact",
+            "page": "368"
+        },
+        {
+            "structure": "72.6",
+            "title": "Basketball and Volunteerism",
+            "page": "368"
+        },
+        {
+            "structure": "72.7",
+            "title": "Basketball and Youth Empowerment",
+            "page": "369"
+        },
+        {
+            "structure": "72.8",
+            "title": "The Role of Nonprofits in Basketball",
+            "page": "369"
+        },
+        {
+            "structure": "72.9",
+            "title": "Basketball and Global Humanitarian Efforts",
+            "page": "370"
+        },
+        {
+            "structure": "72.10",
+            "title": "The Future of Basketball in Community Building",
+            "page": "370"
+        },
+        {
+            "structure": "73",
+            "title": "BASKETBALL AND INNOVATIVE EDUCATION",
+            "page": null
+        },
+        {
+            "structure": "73.1",
+            "title": "Basketball as a Learning Tool",
+            "page": "371"
+        },
+        {
+            "structure": "73.2",
+            "title": "STEM Education Through Basketball",
+            "page": "371"
+        },
+        {
+            "structure": "73.3",
+            "title": "Basketball and Leadership Training in Schools",
+            "page": "372"
+        },
+        {
+            "structure": "73.4",
+            "title": "Basketball and Character Development",
+            "page": "372"
+        },
+        {
+            "structure": "73.5",
+            "title": "Educational Basketball Camps",
+            "page": "373"
+        },
+        {
+            "structure": "73.6",
+            "title": "Basketball and College Preparation",
+            "page": "373"
+        },
+        {
+            "structure": "73.7",
+            "title": "Scholarships for Basketball Players",
+            "page": "374"
+        },
+        {
+            "structure": "73.8",
+            "title": "Basketball and Career Readiness",
+            "page": "374"
+        },
+        {
+            "structure": "73.9",
+            "title": "Basketball and Lifelong Learning",
+            "page": "375"
+        },
+        {
+            "structure": "73.10",
+            "title": "The Future of Basketball in Education",
+            "page": "375"
+        },
+        {
+            "structure": "74",
+            "title": "BASKETBALL AND INNOVATIVE HEALTH SOLUTIONS",
+            "page": null
+        },
+        {
+            "structure": "74.1",
+            "title": "Basketball and Physical Rehabilitation",
+            "page": "376"
+        },
+        {
+            "structure": "74.2",
+            "title": "Mental Health Programs for Players",
+            "page": "376"
+        },
+        {
+            "structure": "74.3",
+            "title": "Injury Prevention Through Technology",
+            "page": "377"
+        },
+        {
+            "structure": "74.4",
+            "title": "Basketball and Cardiovascular Health",
+            "page": "377"
+        },
+        {
+            "structure": "74.5",
+            "title": "Basketball and Stress Management",
+            "page": "378"
+        },
+        {
+            "structure": "74.6",
+            "title": "The Role of Nutrition in Player Health",
+            "page": "378"
+        },
+        {
+            "structure": "74.7",
+            "title": "Basketball and Holistic Wellness",
+            "page": "379"
+        },
+        {
+            "structure": "74.8",
+            "title": "Recovery Innovations for Athletes",
+            "page": "379"
+        },
+        {
+            "structure": "74.9",
+            "title": "Basketball and Special Populations",
+            "page": "380"
+        },
+        {
+            "structure": "74.10",
+            "title": "The Future of Health Solutions in Basketball",
+            "page": "380"
+        }
+    ]
+}
+ERROR:root:Failed to extract JSON: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Failed to parse JSON even after cleanup
+Traceback (most recent call last):
+  File "/Users/tahjholden/mppd/PageIndex/run_pageindex.py", line 69, in <module>
+    toc_with_page_number = page_index_main(args.pdf_path, opt)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tahjholden/mppd/PageIndex/pageindex/page_index.py", line 1112, in page_index_main
+    return asyncio.run(page_index_builder())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.12/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.12/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.12/3.12.12/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/tahjholden/mppd/PageIndex/pageindex/page_index.py", line 1087, in page_index_builder
+    structure = await tree_parser(page_list, opt, doc=doc, logger=logger)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tahjholden/mppd/PageIndex/pageindex/page_index.py", line 1037, in tree_parser
+    toc_with_page_number = await meta_processor(
+                           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tahjholden/mppd/PageIndex/pageindex/page_index.py", line 967, in meta_processor
+    toc_with_page_number = process_toc_with_page_numbers(toc_content, toc_page_list, page_list, toc_check_page_num=opt.toc_check_page_num, model=opt.model, logger=logger)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tahjholden/mppd/PageIndex/pageindex/page_index.py", line 622, in process_toc_with_page_numbers
+    toc_with_page_number = toc_transformer(toc_content, model)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tahjholden/mppd/PageIndex/pageindex/page_index.py", line 329, in toc_transformer
+    if_complete = check_if_toc_transformation_is_complete(toc_content, last_complete, model)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tahjholden/mppd/PageIndex/pageindex/page_index.py", line 165, in check_if_toc_transformation_is_complete
+    return json_content['completed']
+           ~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'completed'

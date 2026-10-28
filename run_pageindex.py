@@ -5,6 +5,7 @@ from pageindex import *
 from pageindex.page_index_md import md_to_tree
 
 if __name__ == "__main__":
+    print("DEBUG: Starting run_pageindex.py...", flush=True)
     # Set up argument parser
     parser = argparse.ArgumentParser(description='Process PDF or Markdown document and generate structure')
     parser.add_argument('--pdf_path', type=str, help='Path to the PDF file')
@@ -64,6 +65,7 @@ if __name__ == "__main__":
         )
 
         # Process the PDF
+        print('Calling page_index_main (PDF pipeline)...', flush=True)
         toc_with_page_number = page_index_main(args.pdf_path, opt)
         print('Parsing done, saving to file...')
         
